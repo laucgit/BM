@@ -1,2 +1,1 @@
-# BM
-Repositorio de prácticas de Bioinformática y Medicina
+# Repositorio de prácticas de Bioinformática y Medicina
