@@ -1,0 +1,109 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{cite}
+\usepackage{hyperref}
+
+\renewcommand{\familydefault}{\sfdefault} % Usa fuente sans-serif (similar a Arial)
+\linespread{1.1}
+
+\title{\textbf{Predicción de Respuesta a Medicamentos mediante Integración de Datos Genómicos, Metabolómicos y Farmacogenómicos usando Inteligencia Artificial}}
+
+\author{
+Laura Cabaleiro Pintos \\
+Marcelo Ferreiro Sánchez \\
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+
+La medicina personalizada busca adaptar los tratamientos médicos a las características biológicas individuales de cada paciente. En particular, la respuesta a los medicamentos puede variar significativamente entre individuos debido a factores genéticos, metabólicos y moleculares.  
+
+En este proyecto se propone desarrollar un sistema basado en inteligencia artificial capaz de predecir la respuesta de un paciente a un determinado fármaco utilizando datos multi-ómicos. Para ello se integrarán tres tipos principales de datos biomédicos: datos genómicos, datos metabolómicos y datos farmacogenómicos.  
+
+La combinación de estas fuentes permite capturar diferentes niveles de información biológica y puede mejorar significativamente la capacidad de los modelos de aprendizaje automático para predecir la eficacia o toxicidad de un medicamento antes de su administración.
+
+\section{Justificación de la necesidad y estado del arte}
+
+La variabilidad en la respuesta a los medicamentos representa uno de los principales desafíos de la medicina moderna. Algunos pacientes no responden al tratamiento o experimentan efectos secundarios graves debido a diferencias genéticas y metabólicas.  
+
+La farmacogenómica estudia cómo las variaciones genéticas influyen en la respuesta a los fármacos y permite identificar tratamientos más adecuados para cada paciente \cite{pharmacogenomics_review}.  
+
+En los últimos años, la integración de datos multi-ómicos se ha convertido en una estrategia clave para comprender mejor los mecanismos biológicos de las enfermedades y mejorar la medicina personalizada \cite{multiomics_review}.  
+
+Además, los métodos de aprendizaje automático han demostrado ser especialmente eficaces para analizar grandes conjuntos de datos biomédicos complejos, permitiendo descubrir patrones que no pueden detectarse mediante métodos estadísticos tradicionales \cite{ml_multiomics}.  
+
+Diversos estudios recientes han demostrado que la combinación de datos genómicos, metabolómicos y farmacogenómicos puede mejorar la predicción de la respuesta a tratamientos y contribuir al desarrollo de terapias más seguras y eficaces \cite{ai_pharmacogenomics, multiomics_integration}.
+
+\section{Fuentes y tipos de datos}
+
+El proyecto utilizará tres tipos principales de datos biomédicos:
+
+\begin{itemize}
+
+\item \textbf{Datos genómicos:}  
+Incluyen variantes genéticas como SNPs (Single Nucleotide Polymorphisms) que pueden influir en la respuesta a medicamentos. Estos datos pueden obtenerse de bases de datos públicas como The Cancer Genome Atlas (TCGA) o el GWAS Catalog.
+
+\item \textbf{Datos metabolómicos:}  
+Consisten en perfiles de metabolitos presentes en muestras biológicas (sangre u orina), los cuales reflejan el estado metabólico del organismo. Estos datos pueden obtenerse de repositorios como Metabolomics Workbench.
+
+\item \textbf{Datos farmacogenómicos:}  
+Incluyen información sobre genes implicados en el metabolismo y transporte de medicamentos, como los genes de la familia CYP450. Estos datos pueden obtenerse de bases de datos especializadas como PharmGKB.
+
+\end{itemize}
+
+La integración de estas tres fuentes permitirá construir un conjunto de datos multi-ómico que capture diferentes niveles de información biológica relacionados con la respuesta a fármacos.
+
+\section{Metodología}
+
+El proyecto consistirá en desarrollar un modelo de aprendizaje automático capaz de predecir la respuesta de un paciente a un medicamento a partir de datos multi-ómicos.
+
+Primero se realizará un proceso de preprocesamiento de los datos, que incluirá limpieza, normalización y selección de características relevantes. Posteriormente se integrarán los datos procedentes de las distintas fuentes para construir un único conjunto de características.
+
+A continuación se entrenará un modelo de aprendizaje automático supervisado. Entre los modelos candidatos se incluyen Random Forest, Gradient Boosting y redes neuronales profundas, ya que han demostrado un buen rendimiento en tareas de análisis multi-ómico.
+
+El modelo se entrenará para clasificar a los pacientes según su respuesta al medicamento (por ejemplo: respuesta positiva, respuesta limitada o toxicidad).
+
+Para evaluar el rendimiento del modelo se utilizarán varias métricas estándar de clasificación, incluyendo:
+
+\begin{itemize}
+
+\item Accuracy  
+\item Precision  
+\item Recall  
+\item F1-score  
+\item ROC-AUC  
+
+\end{itemize}
+
+Finalmente, se analizará la importancia de las variables para identificar posibles biomarcadores genéticos o metabólicos asociados a la respuesta al tratamiento.
+
+\begin{thebibliography}{9}
+
+\bibitem{pharmacogenomics_review}
+Roden, D. M., et al. (2019). Pharmacogenomics. \textit{The Lancet}.
+
+\bibitem{multiomics_review}
+Hasin, Y., Seldin, M., Lusis, A. (2017). Multi-omics approaches to disease. \textit{Genome Biology}.  
+https://pubmed.ncbi.nlm.nih.gov/28476144/
+
+\bibitem{ml_multiomics}
+Reel, P. S., et al. (2021). Using machine learning approaches for multi-omics data analysis: A review. \textit{Computational and Structural Biotechnology Journal}.  
+https://www.sciencedirect.com/science/article/pii/S0734975021000458
+
+\bibitem{ai_pharmacogenomics}
+Yetgin, H., et al. (2025). Revolutionizing multi-omics analysis with artificial intelligence and data processing. \textit{Wiley Interdisciplinary Reviews}.
+
+\bibitem{multiomics_integration}
+Baião, A. R., et al. (2025). A technical review of multi-omics data integration methods. \textit{Briefings in Bioinformatics}.  
+https://academic.oup.com/bib/article/26/4/bbaf355/8220754
+
+\end{thebibliography}
+
+\end{document}
