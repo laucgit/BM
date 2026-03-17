@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1773745458.92465 "/home/lau/Escritorio/IA/cuarto_IA/cuatri_2/BM/practicas/BM/practica1/practica1.tex" "practica1.pdf" "practica1" 1773745459.91684 0
+["lualatex"] 1773746285.30758 "/home/lau/Escritorio/IA/cuarto_IA/cuatri_2/BM/practicas/BM/practica1/practica1.tex" "practica1.pdf" "practica1" 1773746286.26573 0
   "/home/lau/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/arial.luc" 1773744914.92349 187677 f8de05284f5e89c33a14cde15a8e2db0 ""
   "/home/lau/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/arialbd.luc" 1773744914.99249 188392 61fbb53b64139bd15995190a0e6e5e93 ""
   "/home/lau/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/arialbi.luc" 1773744914.95349 102007 ecb9e43e5828349402e88b215b3d3d72 ""
@@ -9,7 +9,7 @@
   "/home/lau/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1768323151.17905 127322 7b3ec560cedc6cf6328543c6b83749ed ""
   "/home/lau/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1773744915.07649 1499 230ea0545387b6727b5c1a16c0c13f4c ""
   "/home/lau/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1773744914.8715 326373 54f806bd8eac88488b207b3af7ae087d ""
-  "/home/lau/Escritorio/IA/cuarto_IA/cuatri_2/BM/practicas/BM/practica1/practica1.tex" 1773745457.66617 11369 3f06f455b151ee443227b174ae72ccc8 ""
+  "/home/lau/Escritorio/IA/cuarto_IA/cuatri_2/BM/practicas/BM/practica1/practica1.tex" 1773746285.10524 11937 a86fc5c724ecb4881729e26f26d1cfa5 ""
   "/usr/share/fonts/msttcore/arial.ttf" 1163584946 364676 1fc0587830eb080dd270bda343fe5021 ""
   "/usr/share/fonts/msttcore/arialbd.ttf" 1163584944 349232 45251aa7ff4ad8e4a4f142844213e030 ""
   "/usr/share/fonts/msttcore/ariali.ttf" 1163584936 206708 b574a949ccdc296ff403548e1b3e7dd0 ""
@@ -125,9 +125,9 @@
   "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1764115200 13565 83bac25a8cf8630acccd6a7f8bb9f791 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1768328434.01379 4547344 09b200d6d21f1c0b39cba8696f0a38d2 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1768328209 11867560 962618b30aafcab4c877725191f02389 ""
-  "practica1.aux" 1773745459.79213 1370 0f9ec73dd4bf7b6a21119ea137914266 "lualatex"
-  "practica1.out" 1773745459.79213 684 70cbddec97906f85cf4b57ca986a52b5 "lualatex"
-  "practica1.tex" 1773745457.66617 11369 3f06f455b151ee443227b174ae72ccc8 ""
+  "practica1.aux" 1773746286.11848 1370 0f9ec73dd4bf7b6a21119ea137914266 "lualatex"
+  "practica1.out" 1773746286.11848 684 70cbddec97906f85cf4b57ca986a52b5 "lualatex"
+  "practica1.tex" 1773746285.10524 11937 a86fc5c724ecb4881729e26f26d1cfa5 ""
   (generated)
   "practica1.aux"
   "practica1.log"

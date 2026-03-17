@@ -76,7 +76,7 @@ A continuación, se entrenarán distintos modelos supervisados para comparar su 
 
 El modelo tendrá como objetivo clasificar a los pacientes según su respuesta al medicamento, por ejemplo en categorías como respuesta favorable, respuesta limitada o aparición de toxicidad.
 
-Para evaluar el rendimiento del sistema se emplearán varias métricas de clasificación como accuracy, precision, recall, F1-score y ROC-AUC.
+Para evaluar el rendimiento del sistema se emplearán varias métricas de clasificación como accuracy, precision, recall, F1-score y ROC-AUC. Estas métricas se han seleccionado porque permiten evaluar el modelo de forma más completa que la accuracy por sí sola. En problemas biomédicos puede existir desbalanceo entre clases, por lo que un valor alto de accuracy no siempre implica un buen comportamiento clínico. La precision permite medir cuántas de las predicciones positivas son correctas, el recall evalúa la capacidad del modelo para detectar correctamente los casos relevantes, el F1-score equilibra ambas medidas y la ROC-AUC permite valorar la capacidad discriminativa global del clasificador.
 
 Además, se aplicará validación cruzada para estimar la capacidad de generalización del modelo y se analizará la importancia de las variables más influyentes en la predicción, con el fin de identificar posibles biomarcadores genéticos, metabolómicos o farmacogenómicos asociados a la respuesta al tratamiento y mejorar la interpretabilidad clínica del modelo.
 
