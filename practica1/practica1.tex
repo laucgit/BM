@@ -3,9 +3,11 @@
 \usepackage[a4paper,margin=2.5cm]{geometry}
 \usepackage{setspace}
 \usepackage{cite}
+\usepackage{xurl}
 \usepackage{hyperref}
+\usepackage{fontspec}
 
-\renewcommand{\familydefault}{\sfdefault} % Usa fuente sans-serif (similar a Arial)
+\setmainfont{Arial}
 \linespread{1.1}
 
 \title{\textbf{Predicción de Respuesta a Medicamentos mediante Integración de Datos Genómicos, Metabolómicos y Farmacogenómicos usando Inteligencia Artificial}}
@@ -15,7 +17,7 @@ Laura Cabaleiro Pintos \\
 Marcelo Ferreiro Sánchez \\
 }
 
-\date{}
+\date{Marzo 2026}
 
 \begin{document}
 
@@ -31,78 +33,71 @@ La combinación de estas fuentes permite capturar diferentes niveles de informac
 
 \section{Justificación de la necesidad y estado del arte}
 
-La variabilidad en la respuesta a los medicamentos representa uno de los principales desafíos de la medicina moderna. Algunos pacientes no responden al tratamiento o experimentan efectos secundarios graves debido a diferencias genéticas y metabólicas.  
+La variabilidad entre individuos en la respuesta a los medicamentos constituye un problema clínico y sanitario relevante. Un mismo tratamiento puede ser muy eficaz en algunos pacientes, resultar ineficaz en otros o incluso producir reacciones adversas graves. Esta situación obliga con frecuencia a aplicar estrategias de ensayo y error terapéutico, especialmente en enfermedades frecuentes como la hipertensión, la depresión o los trastornos cardiovasculares, lo que retrasa la obtención del beneficio clínico y aumenta la carga asistencial. En este contexto, la farmacogenómica surge como una herramienta clave, ya que estudia cómo las variantes del ADN modifican tanto la farmacocinética como la farmacodinámica de los fármacos y, por tanto, su eficacia y su toxicidad \cite{pharmacogenomics_review}.
 
-La farmacogenómica estudia cómo las variaciones genéticas influyen en la respuesta a los fármacos y permite identificar tratamientos más adecuados para cada paciente \cite{pharmacogenomics_review}.  
+El estado del arte muestra que existen ejemplos bien establecidos en los que determinados genes tienen un efecto importante sobre la respuesta farmacológica. Variantes en \textit{CYP2D6} alteran la bioactivación de fármacos como la codeína, pudiendo asociarse tanto a falta de analgesia como a toxicidad; variantes en \textit{CYP2C19} modifican la respuesta al clopidogrel; y alteraciones en \textit{TPMT}, \textit{NUDT15} o \textit{DPYD} se relacionan con toxicidad relevante en thiopurinas y fluoropirimidinas. Sin embargo, incluso en ejemplos clásicos de gran efecto, una sola variante genética no explica toda la variabilidad observada, lo que indica que la respuesta a fármacos depende también de otros factores biológicos y ambientales. Por ello, limitar el análisis a un único marcador genético resulta insuficiente para modelar un fenómeno tan complejo como la respuesta terapéutica \cite{pharmacogenomics_review}.
 
-En los últimos años, la integración de datos multi-ómicos se ha convertido en una estrategia clave para comprender mejor los mecanismos biológicos de las enfermedades y mejorar la medicina personalizada \cite{multiomics_review}.  
+Aquí es donde la integración multi-ómica aporta una ventaja clara. Los estudios de una sola capa de datos suelen ofrecer listas de asociaciones con la enfermedad o con la respuesta al tratamiento, pero con frecuencia permanecen en el plano correlacional y capturan sobre todo procesos reactivos. En cambio, la integración de varias capas permite seguir mejor el flujo de información biológica desde la causa inicial hasta sus consecuencias funcionales. En particular, la genómica aporta información sobre la predisposición heredada, la farmacogenómica identifica genes implicados en absorción, metabolismo, transporte o mecanismo de acción del fármaco, y la metabolómica proporciona una imagen más cercana al fenotipo real del paciente, reflejando el estado funcional de rutas bioquímicas y actuando como puente entre genotipo y fenotipo. Esta visión más completa resulta especialmente adecuada para problemas de medicina personalizada \cite{multiomics_review}.
 
-Además, los métodos de aprendizaje automático han demostrado ser especialmente eficaces para analizar grandes conjuntos de datos biomédicos complejos, permitiendo descubrir patrones que no pueden detectarse mediante métodos estadísticos tradicionales \cite{ml_multiomics}.  
+No obstante, la propia literatura reciente subraya que integrar datos multi-ómicos no es trivial. Estos conjuntos de datos suelen presentar alta dimensionalidad, heterogeneidad entre modalidades, valores ausentes y ruido experimental, además de estar condicionados por factores de confusión como dieta, estilo de vida o diferencias en la adquisición de muestras. Por ello, las revisiones metodológicas coinciden en que los enfoques de aprendizaje automático son especialmente útiles para este tipo de problemas, ya que permiten integrar fuentes heterogéneas, reducir dimensionalidad, extraer representaciones latentes compartidas y detectar patrones no lineales asociados con biomarcadores, estratificación de pacientes y predicción clínica \cite{ml_multiomics, ai_pharmacogenomics, multiomics_integration}.
 
-Diversos estudios recientes han demostrado que la combinación de datos genómicos, metabolómicos y farmacogenómicos puede mejorar la predicción de la respuesta a tratamientos y contribuir al desarrollo de terapias más seguras y eficaces \cite{ai_pharmacogenomics, multiomics_integration}.
+En conjunto, el estado del arte respalda la necesidad de desarrollar modelos de inteligencia artificial que integren datos genómicos, metabolómicos y farmacogenómicos para predecir la respuesta a medicamentos de forma más precisa que los enfoques basados en una sola fuente de información. Este tipo de aproximación no solo puede mejorar la selección del tratamiento más adecuado para cada paciente, sino también contribuir a reducir toxicidades evitables y avanzar hacia una medicina verdaderamente personalizada.
 
 \section{Fuentes y tipos de datos}
 
-El proyecto utilizará tres tipos principales de datos biomédicos:
+El proyecto utilizará tres tipos principales de datos biomédicos, integrados dentro de un enfoque multi-ómico orientado a la predicción de la respuesta a fármacos.
 
 \begin{itemize}
 
 \item \textbf{Datos genómicos:}  
-Incluyen variantes genéticas como SNPs (Single Nucleotide Polymorphisms) que pueden influir en la respuesta a medicamentos. Estos datos pueden obtenerse de bases de datos públicas como The Cancer Genome Atlas (TCGA) o el GWAS Catalog.
+Incluyen variantes genéticas, especialmente SNPs (Single Nucleotide Polymorphisms), asociadas con diferencias en la respuesta a medicamentos, la susceptibilidad a la enfermedad o la alteración de rutas biológicas relevantes. Estos datos pueden obtenerse a partir de bases de datos públicas como el GWAS Catalog, que recopila asociaciones entre variantes genéticas y rasgos o enfermedades, y, si el proyecto se enfoca al ámbito oncológico, también de repositorios como The Cancer Genome Atlas (TCGA).
 
 \item \textbf{Datos metabolómicos:}  
-Consisten en perfiles de metabolitos presentes en muestras biológicas (sangre u orina), los cuales reflejan el estado metabólico del organismo. Estos datos pueden obtenerse de repositorios como Metabolomics Workbench.
+Consisten en perfiles de metabolitos presentes en muestras biológicas como sangre u orina. Este tipo de datos refleja el estado funcional del organismo y permite aproximarse de forma más directa al fenotipo del paciente, ya que resume la actividad de múltiples rutas bioquímicas. Los datos metabolómicos pueden obtenerse de repositorios públicos como Metabolomics Workbench.
 
 \item \textbf{Datos farmacogenómicos:}  
-Incluyen información sobre genes implicados en el metabolismo y transporte de medicamentos, como los genes de la familia CYP450. Estos datos pueden obtenerse de bases de datos especializadas como PharmGKB.
+Incluyen información sobre genes implicados en la absorción, distribución, metabolismo, transporte o mecanismo de acción de los medicamentos, como los genes de la familia \textit{CYP450}, \textit{DPYD}, \textit{TPMT} o \textit{CYP2C19}. Esta información puede obtenerse de bases de conocimiento especializadas como PharmGKB y utilizarse para anotar variantes, priorizar características y facilitar la interpretación clínica del modelo.
 
 \end{itemize}
 
-La integración de estas tres fuentes permitirá construir un conjunto de datos multi-ómico que capture diferentes niveles de información biológica relacionados con la respuesta a fármacos.
+La combinación de estas tres fuentes permitirá construir una representación multi-ómica del paciente, integrando predisposición genética, estado metabólico y conocimiento farmacogenómico relacionado con la respuesta terapéutica.
 
 \section{Metodología}
 
-El proyecto consistirá en desarrollar un modelo de aprendizaje automático capaz de predecir la respuesta de un paciente a un medicamento a partir de datos multi-ómicos.
+El proyecto consistirá en desarrollar un modelo de aprendizaje automático supervisado capaz de predecir la respuesta de un paciente a un medicamento a partir de datos multi-ómicos.
 
-Primero se realizará un proceso de preprocesamiento de los datos, que incluirá limpieza, normalización y selección de características relevantes. Posteriormente se integrarán los datos procedentes de las distintas fuentes para construir un único conjunto de características.
+En primer lugar, se realizará un preprocesamiento específico para cada tipo de dato. En los datos genómicos se filtrarán variantes relevantes y se codificarán de forma adecuada para su análisis. En los datos metabolómicos se aplicarán procesos de limpieza, normalización y tratamiento de valores ausentes. En la información farmacogenómica se seleccionarán genes y variantes con evidencia conocida de implicación en la respuesta a fármacos.
 
-A continuación se entrenará un modelo de aprendizaje automático supervisado. Entre los modelos candidatos se incluyen Random Forest, Gradient Boosting y redes neuronales profundas, ya que han demostrado un buen rendimiento en tareas de análisis multi-ómico.
+Posteriormente, se llevará a cabo una fase de selección o reducción de características para disminuir la dimensionalidad y conservar únicamente la información más relevante. Esta etapa es especialmente importante en datos multi-ómicos, ya que suelen ser heterogéneos, de alta dimensionalidad y con distinto grado de complejidad según la fuente.
 
-El modelo se entrenará para clasificar a los pacientes según su respuesta al medicamento (por ejemplo: respuesta positiva, respuesta limitada o toxicidad).
+Una vez procesadas las tres modalidades, se integrarán en un único conjunto de entrada mediante una estrategia de fusión temprana, combinando las características seleccionadas de cada bloque de datos. Como posible ampliación, también podría explorarse una integración intermedia mediante representaciones latentes específicas para cada modalidad.
 
-Para evaluar el rendimiento del modelo se utilizarán varias métricas estándar de clasificación, incluyendo:
+A continuación, se entrenarán distintos modelos supervisados para comparar su rendimiento. Como modelos base se utilizarán Random Forest y Gradient Boosting, debido a su robustez y buena interpretabilidad en problemas biomédicos. Si el tamaño muestral lo permite, también se evaluará una red neuronal profunda para estudiar si una arquitectura más compleja mejora la capacidad predictiva del sistema.
 
-\begin{itemize}
+El modelo tendrá como objetivo clasificar a los pacientes según su respuesta al medicamento, por ejemplo en categorías como respuesta favorable, respuesta limitada o aparición de toxicidad.
 
-\item Accuracy  
-\item Precision  
-\item Recall  
-\item F1-score  
-\item ROC-AUC  
+Para evaluar el rendimiento del sistema se emplearán varias métricas de clasificación como accuracy, precision, recall, F1-score y ROC-AUC.
 
-\end{itemize}
+Además, se aplicará validación cruzada para estimar la capacidad de generalización del modelo y se analizará la importancia de las variables más influyentes en la predicción, con el fin de identificar posibles biomarcadores genéticos, metabolómicos o farmacogenómicos asociados a la respuesta al tratamiento y mejorar la interpretabilidad clínica del modelo.
 
-Finalmente, se analizará la importancia de las variables para identificar posibles biomarcadores genéticos o metabólicos asociados a la respuesta al tratamiento.
+\newpage
 
 \begin{thebibliography}{9}
 
 \bibitem{pharmacogenomics_review}
-Roden, D. M., et al. (2019). Pharmacogenomics. \textit{The Lancet}.
+Roden, D. M., McLeod, H. L., Relling, M. V., Williams, M. S., Mensah, G. A., Peterson, J. F., \& Van Driest, S. L. (2019). Pharmacogenomics. \textit{The Lancet}, 394(10197), 521--532. \url{https://doi.org/10.1016/S0140-6736(19)31276-0}
 
 \bibitem{multiomics_review}
-Hasin, Y., Seldin, M., Lusis, A. (2017). Multi-omics approaches to disease. \textit{Genome Biology}.  
-https://pubmed.ncbi.nlm.nih.gov/28476144/
+Hasin, Y., Seldin, M., \& Lusis, A. (2017). Multi-omics approaches to disease. \textit{Genome Biology}, 18, 83. \url{https://doi.org/10.1186/s13059-017-1215-1}
 
 \bibitem{ml_multiomics}
-Reel, P. S., et al. (2021). Using machine learning approaches for multi-omics data analysis: A review. \textit{Computational and Structural Biotechnology Journal}.  
-https://www.sciencedirect.com/science/article/pii/S0734975021000458
+Reel, P. S., Reel, S., Pearson, E., Trucco, E., \& Jefferson, E. (2021). Using machine learning approaches for multi-omics data analysis: A review. \textit{Biotechnology Advances}, 49, 107739. \url{https://doi.org/10.1016/j.biotechadv.2021.107739}
 
 \bibitem{ai_pharmacogenomics}
-Yetgin, H., et al. (2025). Revolutionizing multi-omics analysis with artificial intelligence and data processing. \textit{Wiley Interdisciplinary Reviews}.
+Yetgin, A. (2025). Revolutionizing multi-omics analysis with artificial intelligence and data processing. \textit{Quantitative Biology}, 13(3), e70002. \url{https://doi.org/10.1002/qub2.70002}
 
 \bibitem{multiomics_integration}
-Baião, A. R., et al. (2025). A technical review of multi-omics data integration methods. \textit{Briefings in Bioinformatics}.  
-https://academic.oup.com/bib/article/26/4/bbaf355/8220754
+Baião, A. R., Cai, Z., Poulos, R. C., Robinson, P. J., Reddel, R. R., Vinga, S., \& Gonçalves, E. (2025). A technical review of multi-omics data integration methods: from classical statistical to deep generative approaches. \textit{Briefings in Bioinformatics}, 26(4), bbaf355. \url{https://doi.org/10.1093/bib/bbaf355}
 
 \end{thebibliography}
 
