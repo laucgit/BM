@@ -6,9 +6,11 @@
 \usepackage{xurl}
 \usepackage{hyperref}
 \usepackage{fontspec}
+%ponerlo en español
+\usepackage[spanish]{babel}
 
 \setmainfont{Arial}
-\linespread{1.1}
+\linespread{0.9}
 
 \title{\textbf{Predicción de Respuesta a Medicamentos mediante Integración de Datos Genómicos, Metabolómicos y Farmacogenómicos usando Inteligencia Artificial}}
 
@@ -25,62 +27,53 @@ Marcelo Ferreiro Sánchez \\
 
 \section{Introducción}
 
-La medicina personalizada busca adaptar los tratamientos médicos a las características biológicas individuales de cada paciente. En particular, la respuesta a los medicamentos puede variar significativamente entre individuos debido a factores genéticos, metabólicos y moleculares.  
+La medicina personalizada busca adaptar los tratamientos a las características biológicas de cada paciente. En este contexto, la respuesta a los medicamentos varía significativamente entre individuos por factores genéticos, metabólicos y moleculares.
 
-En este proyecto se propone desarrollar un sistema basado en inteligencia artificial capaz de predecir la respuesta de un paciente a un determinado fármaco utilizando datos multi-ómicos. Para ello se integrarán tres tipos principales de datos biomédicos: datos genómicos, datos metabolómicos y datos farmacogenómicos.  
+Este proyecto propone desarrollar un sistema basado en inteligencia artificial para predecir la respuesta de un paciente a un fármaco mediante datos multi-ómicos. Para ello se integrarán datos genómicos, metabolómicos y farmacogenómicos.
 
-La combinación de estas fuentes permite capturar diferentes niveles de información biológica y puede mejorar significativamente la capacidad de los modelos de aprendizaje automático para predecir la eficacia o toxicidad de un medicamento antes de su administración.
+La combinación de estas fuentes permite capturar distintos niveles de información biológica y puede mejorar la predicción de la eficacia o toxicidad de un medicamento antes de su administración.
 
 \section{Justificación de la necesidad y estado del arte}
 
-La variabilidad entre individuos en la respuesta a los medicamentos constituye un problema clínico y sanitario relevante. Un mismo tratamiento puede ser muy eficaz en algunos pacientes, resultar ineficaz en otros o incluso producir reacciones adversas graves. Esta situación obliga con frecuencia a aplicar estrategias de ensayo y error terapéutico, especialmente en enfermedades frecuentes como la hipertensión, la depresión o los trastornos cardiovasculares, lo que retrasa la obtención del beneficio clínico y aumenta la carga asistencial. En este contexto, la farmacogenómica surge como una herramienta clave, ya que estudia cómo las variantes del ADN modifican tanto la farmacocinética como la farmacodinámica de los fármacos y, por tanto, su eficacia y su toxicidad \cite{pharmacogenomics_review}.
+La variabilidad interindividual en la respuesta a los medicamentos constituye un problema clínico y sanitario relevante. Un mismo tratamiento puede ser muy eficaz en unos pacientes, ineficaz en otros o incluso causar reacciones adversas graves. Esto obliga con frecuencia a estrategias de ensayo y error terapéutico, especialmente en enfermedades prevalentes como hipertensión, depresión o trastornos cardiovasculares, lo que retrasa el beneficio clínico y aumenta la carga asistencial. En este contexto, la farmacogenómica es clave, ya que estudia cómo las variantes del ADN modifican la farmacocinética y la farmacodinámica de los fármacos y, por tanto, su eficacia y toxicidad \cite{pharmacogenomics_review}.
 
-El estado del arte muestra que existen ejemplos bien establecidos en los que determinados genes tienen un efecto importante sobre la respuesta farmacológica. Variantes en \textit{CYP2D6} alteran la bioactivación de fármacos como la codeína, pudiendo asociarse tanto a falta de analgesia como a toxicidad; variantes en \textit{CYP2C19} modifican la respuesta al clopidogrel; y alteraciones en \textit{TPMT}, \textit{NUDT15} o \textit{DPYD} se relacionan con toxicidad relevante en thiopurinas y fluoropirimidinas. Sin embargo, incluso en ejemplos clásicos de gran efecto, una sola variante genética no explica toda la variabilidad observada, lo que indica que la respuesta a fármacos depende también de otros factores biológicos y ambientales. Por ello, limitar el análisis a un único marcador genético resulta insuficiente para modelar un fenómeno tan complejo como la respuesta terapéutica \cite{pharmacogenomics_review}.
+El estado del arte aporta ejemplos bien establecidos de genes con efecto importante sobre la respuesta farmacológica. Las variantes en \textit{CYP2D6} alteran la bioactivación de fármacos como la codeína y pueden asociarse tanto a falta de analgesia como a toxicidad; las variantes en \textit{CYP2C19} modifican la respuesta al clopidogrel; y las alteraciones en \textit{TPMT}, \textit{NUDT15} o \textit{DPYD} se relacionan con toxicidad relevante a thiopurinas y fluoropirimidinas. Sin embargo, incluso en estos ejemplos clásicos, una sola variante genética no explica toda la variabilidad observada, lo que indica que la respuesta a fármacos también depende de otros factores biológicos y ambientales. Por ello, un único marcador genético resulta insuficiente para modelar un fenómeno tan complejo como la respuesta terapéutica \cite{pharmacogenomics_review}.
 
-Aquí es donde la integración multi-ómica aporta una ventaja clara. Los estudios de una sola capa de datos suelen ofrecer listas de asociaciones con la enfermedad o con la respuesta al tratamiento, pero con frecuencia permanecen en el plano correlacional y capturan sobre todo procesos reactivos. En cambio, la integración de varias capas permite seguir mejor el flujo de información biológica desde la causa inicial hasta sus consecuencias funcionales. En particular, la genómica aporta información sobre la predisposición heredada, la farmacogenómica identifica genes implicados en absorción, metabolismo, transporte o mecanismo de acción del fármaco, y la metabolómica proporciona una imagen más cercana al fenotipo real del paciente, reflejando el estado funcional de rutas bioquímicas y actuando como puente entre genotipo y fenotipo. Esta visión más completa resulta especialmente adecuada para problemas de medicina personalizada \cite{multiomics_review}.
+En este marco, la integración multi-ómica ofrece una ventaja clara. Los estudios basados en una sola capa de datos suelen proporcionar asociaciones con la enfermedad o con la respuesta al tratamiento, pero a menudo permanecen en el plano correlacional y capturan sobre todo procesos reactivos. En cambio, integrar varias capas permite seguir mejor el flujo de información biológica desde la causa inicial hasta sus consecuencias funcionales. Así, la genómica informa sobre la predisposición heredada, la farmacogenómica identifica genes implicados en absorción, metabolismo, transporte o mecanismo de acción del fármaco, y la metabolómica aporta una imagen más cercana al fenotipo real del paciente, al reflejar el estado funcional de rutas bioquímicas y actuar como puente entre genotipo y fenotipo. Esta visión resulta especialmente adecuada para problemas de medicina personalizada \cite{multiomics_review}.
 
-No obstante, la propia literatura reciente subraya que integrar datos multi-ómicos no es trivial. Estos conjuntos de datos suelen presentar alta dimensionalidad, heterogeneidad entre modalidades, valores ausentes y ruido experimental, además de estar condicionados por factores de confusión como dieta, estilo de vida o diferencias en la adquisición de muestras. Por ello, las revisiones metodológicas coinciden en que los enfoques de aprendizaje automático son especialmente útiles para este tipo de problemas, ya que permiten integrar fuentes heterogéneas, reducir dimensionalidad, extraer representaciones latentes compartidas y detectar patrones no lineales asociados con biomarcadores, estratificación de pacientes y predicción clínica \cite{ml_multiomics, ai_pharmacogenomics, multiomics_integration}.
+No obstante, la literatura reciente subraya que la integración multi-ómica no es trivial. Estos datos presentan alta dimensionalidad, heterogeneidad entre modalidades, valores ausentes y ruido experimental, además de verse condicionados por factores de confusión como dieta, estilo de vida o diferencias en la adquisición de muestras. Por ello, las revisiones metodológicas coinciden en que los enfoques de aprendizaje automático son especialmente útiles, ya que permiten integrar fuentes heterogéneas, reducir dimensionalidad, extraer representaciones latentes compartidas y detectar patrones no lineales asociados a biomarcadores, estratificación de pacientes y predicción clínica \cite{ml_multiomics,ai_pharmacogenomics,multiomics_integration}.
 
-En conjunto, el estado del arte respalda la necesidad de desarrollar modelos de inteligencia artificial que integren datos genómicos, metabolómicos y farmacogenómicos para predecir la respuesta a medicamentos de forma más precisa que los enfoques basados en una sola fuente de información. Este tipo de aproximación no solo puede mejorar la selección del tratamiento más adecuado para cada paciente, sino también contribuir a reducir toxicidades evitables y avanzar hacia una medicina verdaderamente personalizada.
+En conjunto, el estado del arte respalda la necesidad de desarrollar modelos de inteligencia artificial que integren datos genómicos, metabolómicos y farmacogenómicos para predecir la respuesta a medicamentos con mayor precisión que los enfoques basados en una sola fuente de información. Esta aproximación puede mejorar la selección del tratamiento más adecuado, reducir toxicidades evitables y avanzar hacia una medicina verdaderamente personalizada.
 
 \section{Fuentes y tipos de datos}
 
-El proyecto utilizará tres tipos principales de datos biomédicos, integrados dentro de un enfoque multi-ómico orientado a la predicción de la respuesta a fármacos.
+El proyecto utilizará tres tipos principales de datos biomédicos dentro de un enfoque multi-ómico orientado a la predicción de la respuesta a fármacos.
 
 \begin{itemize}
 
-\item \textbf{Datos genómicos:}  
-Incluyen variantes genéticas, especialmente SNPs (Single Nucleotide Polymorphisms), asociadas con diferencias en la respuesta a medicamentos, la susceptibilidad a la enfermedad o la alteración de rutas biológicas relevantes. Estos datos pueden obtenerse a partir de bases de datos públicas como el GWAS Catalog, que recopila asociaciones entre variantes genéticas y rasgos o enfermedades, y, si el proyecto se enfoca al ámbito oncológico, también de repositorios como The Cancer Genome Atlas (TCGA).
+\item \textbf{Datos genómicos:} incluyen variantes genéticas, especialmente SNPs, asociadas con diferencias en la respuesta a medicamentos, susceptibilidad a la enfermedad o alteración de rutas biológicas relevantes. Estos datos pueden obtenerse de bases públicas como GWAS Catalog, que recopila asociaciones entre variantes genéticas y rasgos o enfermedades \cite{gwas_catalog}, y, si el proyecto se enfoca al ámbito oncológico, también de TCGA \cite{tcga_pancancer}.
 
-\item \textbf{Datos metabolómicos:}  
-Consisten en perfiles de metabolitos presentes en muestras biológicas como sangre u orina. Este tipo de datos refleja el estado funcional del organismo y permite aproximarse de forma más directa al fenotipo del paciente, ya que resume la actividad de múltiples rutas bioquímicas. Los datos metabolómicos pueden obtenerse de repositorios públicos como Metabolomics Workbench.
+\item \textbf{Datos metabolómicos:} consisten en perfiles de metabolitos presentes en muestras biológicas como sangre u orina. Reflejan el estado funcional del organismo y permiten aproximarse de forma más directa al fenotipo del paciente al resumir la actividad de múltiples rutas bioquímicas. Pueden obtenerse de repositorios como Metabolomics Workbench \cite{metabolomics_workbench}.
 
-\item \textbf{Datos farmacogenómicos:}  
-Incluyen información sobre genes implicados en la absorción, distribución, metabolismo, transporte o mecanismo de acción de los medicamentos, como los genes de la familia \textit{CYP450}, \textit{DPYD}, \textit{TPMT} o \textit{CYP2C19}. Esta información puede obtenerse de bases de conocimiento especializadas como PharmGKB y utilizarse para anotar variantes, priorizar características y facilitar la interpretación clínica del modelo.
+\item \textbf{Datos farmacogenómicos:} incluyen información sobre genes implicados en absorción, distribución, metabolismo, transporte o mecanismo de acción de los medicamentos, como \textit{CYP450}, \textit{DPYD}, \textit{TPMT} o \textit{CYP2C19}. Esta información puede obtenerse de bases especializadas como PharmGKB y utilizarse para anotar variantes, priorizar características y facilitar la interpretación clínica del modelo \cite{pharmgkb_resource}.
 
 \end{itemize}
 
-La combinación de estas tres fuentes permitirá construir una representación multi-ómica del paciente, integrando predisposición genética, estado metabólico y conocimiento farmacogenómico relacionado con la respuesta terapéutica.
+La combinación de estas fuentes permitirá construir una representación multi-ómica del paciente, integrando predisposición genética, estado metabólico y conocimiento farmacogenómico relacionado con la respuesta terapéutica.
 
 \section{Metodología}
 
-El proyecto consistirá en desarrollar un modelo de aprendizaje automático supervisado capaz de predecir la respuesta de un paciente a un medicamento a partir de datos multi-ómicos.
+El proyecto consistirá en desarrollar un modelo de aprendizaje automático supervisado para predecir la respuesta de un paciente a un medicamento a partir de datos multi-ómicos.
 
-En primer lugar, se realizará un preprocesamiento específico para cada tipo de dato. En los datos genómicos se filtrarán variantes relevantes y se codificarán de forma adecuada para su análisis. En los datos metabolómicos se aplicarán procesos de limpieza, normalización y tratamiento de valores ausentes. En la información farmacogenómica se seleccionarán genes y variantes con evidencia conocida de implicación en la respuesta a fármacos.
+Primero se realizará un preprocesamiento específico de cada tipo de dato: filtrado y codificación de variantes en genómica, limpieza y normalización en metabolómica, y selección de genes y variantes relevantes en farmacogenómica.
 
-Posteriormente, se llevará a cabo una fase de selección o reducción de características para disminuir la dimensionalidad y conservar únicamente la información más relevante. Esta etapa es especialmente importante en datos multi-ómicos, ya que suelen ser heterogéneos, de alta dimensionalidad y con distinto grado de complejidad según la fuente.
+Después se aplicará una fase de selección o reducción de características para disminuir la dimensionalidad y conservar la información más relevante. A continuación, las tres modalidades se integrarán en un único conjunto de entrada mediante una estrategia de fusión temprana, aunque también podría explorarse como ampliación una integración intermedia basada en representaciones latentes.
 
-Una vez procesadas las tres modalidades, se integrarán en un único conjunto de entrada mediante una estrategia de fusión temprana, combinando las características seleccionadas de cada bloque de datos. Como posible ampliación, también podría explorarse una integración intermedia mediante representaciones latentes específicas para cada modalidad.
-
-A continuación, se entrenarán distintos modelos supervisados para comparar su rendimiento. Como modelos base se utilizarán Random Forest y Gradient Boosting, debido a su robustez y buena interpretabilidad en problemas biomédicos. Si el tamaño muestral lo permite, también se evaluará una red neuronal profunda para estudiar si una arquitectura más compleja mejora la capacidad predictiva del sistema.
-
-El modelo tendrá como objetivo clasificar a los pacientes según su respuesta al medicamento, por ejemplo en categorías como respuesta favorable, respuesta limitada o aparición de toxicidad.
+Posteriormente, se entrenarán distintos modelos supervisados para comparar su rendimiento, utilizando como base Random Forest y Gradient Boosting, y evaluando también una red neuronal profunda si el tamaño muestral lo permite. El objetivo será clasificar a los pacientes según su respuesta al medicamento.
 
 Para evaluar el rendimiento del sistema se emplearán varias métricas de clasificación como accuracy, precision, recall, F1-score y ROC-AUC. Estas métricas se han seleccionado porque permiten evaluar el modelo de forma más completa que la accuracy por sí sola. En problemas biomédicos puede existir desbalanceo entre clases, por lo que un valor alto de accuracy no siempre implica un buen comportamiento clínico. La precision permite medir cuántas de las predicciones positivas son correctas, el recall evalúa la capacidad del modelo para detectar correctamente los casos relevantes, el F1-score equilibra ambas medidas y la ROC-AUC permite valorar la capacidad discriminativa global del clasificador.
 
-Además, se aplicará validación cruzada para estimar la capacidad de generalización del modelo y se analizará la importancia de las variables más influyentes en la predicción, con el fin de identificar posibles biomarcadores genéticos, metabolómicos o farmacogenómicos asociados a la respuesta al tratamiento y mejorar la interpretabilidad clínica del modelo.
-
-\newpage
+Además, se aplicará validación cruzada para estimar la capacidad de generalización del modelo y se analizará la importancia de las variables más influyentes, con el fin de identificar posibles biomarcadores y mejorar la interpretabilidad clínica.
 
 \begin{thebibliography}{9}
 
@@ -98,6 +91,18 @@ Yetgin, A. (2025). Revolutionizing multi-omics analysis with artificial intellig
 
 \bibitem{multiomics_integration}
 Baião, A. R., Cai, Z., Poulos, R. C., Robinson, P. J., Reddel, R. R., Vinga, S., \& Gonçalves, E. (2025). A technical review of multi-omics data integration methods: from classical statistical to deep generative approaches. \textit{Briefings in Bioinformatics}, 26(4), bbaf355. \url{https://doi.org/10.1093/bib/bbaf355}
+
+\bibitem{gwas_catalog}
+Sollis, E., Mosaku, A., Abid, A., et al. (2023). The NHGRI-EBI GWAS Catalog: knowledgebase and deposition resource. \textit{Nucleic Acids Research}, 51(D1), D977--D985. \url{https://doi.org/10.1093/nar/gkac1010}
+
+\bibitem{tcga_pancancer}
+The Cancer Genome Atlas Research Network, Weinstein, J. N., Collisson, E. A., Mills, G. B., et al. (2013). The Cancer Genome Atlas Pan-Cancer analysis project. \textit{Nature Genetics}, 45(10), 1113--1120. \url{https://doi.org/10.1038/ng.2764}
+
+\bibitem{metabolomics_workbench}
+Sud, M., Fahy, E., Cotter, D., et al. (2016). Metabolomics Workbench: An international repository for metabolomics data and metadata, metabolite standards, protocols, tutorials and training, and analysis tools. \textit{Nucleic Acids Research}, 44(D1), D463--D470. \url{https://doi.org/10.1093/nar/gkv1042}
+
+\bibitem{pharmgkb_resource}
+Gong, L., Whirl-Carrillo, M., Klein, T. E. (2021). PharmGKB, an integrated resource of pharmacogenomic information and knowledge. \textit{Current Protocols}, 1(8), e226. \url{https://doi.org/10.1002/cpz1.226}
 
 \end{thebibliography}
 
