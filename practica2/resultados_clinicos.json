@@ -1,0 +1,1976 @@
+[
+  {
+    "disease": "Hiperparatiroidismo",
+    "treatment_types": [
+      "administración de fosfatos",
+      "hormona del crecimiento",
+      "extirpación quirúrgica"
+    ],
+    "treatment_options": [
+      "fosfatos",
+      "hormona del crecimiento",
+      "extirpación quirúrgica"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "niveles analíticos de hipercalcemia",
+      "concentraciones elevadas de paratohormona",
+      "fosfatasa alcalina",
+      "radiografía",
+      "ecografía",
+      "gammagrafía",
+      "TAC"
+    ],
+    "diagnostic_notes": "Datos muy importantes para concluir el diagnóstico de la enfermedad.",
+    "source_text": "**Enfermedad**: Hiperparatiroidismo\n**Abstract**\nEl hiperparatiroidismo es una alteración que consis"
+  },
+  {
+    "disease": "Alveolitis alérgica extrínseca",
+    "treatment_types": [
+      "evitar el alérgeno provocador",
+      "limpieza del hogar",
+      "implementar PPE",
+      "ventilación adecuada",
+      "corticosteroides como la prednisolona",
+      "trasplante de pulmón en etapa terminal"
+    ],
+    "treatment_options": [
+      "evitar el alérgeno provocador",
+      "limpieza del hogar",
+      "implementar PPE",
+      "ventilación adecuada",
+      "corticosteroides como la prednisolona",
+      "trasplante de pulmón en etapa terminal"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "leucocitosis",
+      "eosinofilia",
+      "hipergammaglobulinemia"
+    ],
+    "diagnostic_notes": "incluso de IgE",
+    "source_text": "**Enfermedad**: Alveolitis alérgica extrínseca\n**Abstract**\nLa alveolitis alérgica o neumonitis por "
+  },
+  {
+    "disease": "Hipertensión arterial",
+    "treatment_types": [
+      "Diuréticos tipo tiazida",
+      "Inhibidores de la enzima convertidora de angiotensina (IECA)",
+      "Antagonistas del receptor de angiotensina II (ARA-II)",
+      "Bloqueadores beta",
+      "Bloqueo de los canales de calcio",
+      "Combinación de dos fármacos"
+    ],
+    "treatment_options": [
+      "hipertensión arterial estadio 1 (140-159/90-99): diuréticos tipo tiazida",
+      "hipertensión arterial estadio 2 (con una presión arterial mayor de 160/100): combinación de dos fármacos"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [],
+    "diagnostic_notes": "No se mencionan métodos de diagnóstico específicos en el texto clínico proporcionado.",
+    "source_text": "**Enfermedad**: Hipertensión arterial\n**Abstract**\nLa hipertensión arterial (HTA) es una enfermedad "
+  },
+  {
+    "disease": "Hipertrigliceridemia",
+    "treatment_types": [],
+    "treatment_options": [],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "medición de los triglicéridos en plasma",
+      "medición de las lipoproteínas derivadas intestinal y hepática",
+      "muestra en ayunas",
+      "medición de los niveles de lípidos no en ayunas",
+      "medición de los niveles de apolipoproteína B",
+      "fenotipo de apolipoproteína E",
+      "pruebas genéticas"
+    ],
+    "diagnostic_notes": "El diagnóstico se realiza directamente de la medición de los triglicéridos en plasma. En la mayoría de los individuos, las diferencias en el nivel de TG en ayunas plasmáticas y no en ayunas son pequeñas. En el período postprandial, tanto las lipoproteínas derivadas intestinal como hepáticamente se pueden medir en la circulación, lo que representa un reflejo potencialmente más preciso de la carga de lipoproteínas aterogénicas en un período de 24 horas. Sin embargo en ciertos pacientes como los que se indican en la siguiente tabla es más conveniente la muestra en ayunas. Los pacientes con hipertrigliceridemia generalmente tienen aumento del colesterol total, disminución del colesterol HDL y niveles normales a bajos de colesterol LDL.",
+    "source_text": "**Enfermedad**: Hipertrigliceridemia\n**Abstract**\nLa hipertrigliceridemia es la presencia de una con"
+  },
+  {
+    "disease": "Hipocalcemia",
+    "treatment_types": [
+      "oral",
+      "intravenous"
+    ],
+    "treatment_options": [
+      "gluconato de calcio al 10% IV",
+      "carbonatos de calcio",
+      "dextrosa al 5%",
+      "fosfato",
+      "bicarbonato"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "clínicas manifestaciones",
+      "electrocardiogramas",
+      "niveles séricos de calcio total",
+      "niveles séricos de calcio iónico",
+      "titulación de PTH",
+      "niveles de fósforo",
+      "niveles de magnesio"
+    ],
+    "diagnostic_notes": "necesita corrección de albúmina sérica",
+    "source_text": "**Enfermedad**: Hipocalcemia\n**Abstract**\nLa hipocalcemia es el trastorno hidroelectrolítico consist"
+  },
+  {
+    "disease": "Hipocondría",
+    "treatment_types": [],
+    "treatment_options": [],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [],
+    "diagnostic_notes": "Hay que distinguirla de los rasgos de personalidad aprensiva; la duración de la sintomatología debe ser significativa, al menos 6 meses, antes de diagnosticar; debe existir la convicción de «estar padeciendo como máximo dos enfermedades médicas importantes» y exigen que, por lo menos, una de ellas sea correcta y específicamente nombrada por quien está presentando el trastorno hipocondríaco. Los Criterios Diagnósticos de Investigación (CIE 10) especifican esto. La actitud hipocondríaca puede adquirir en ciertos casos los rasgos de un desarrollo delirante, de contenido hipocondríaco, en la llamada paranoia hipocondríaca. Multitud de neuróticos, tanto histéricos como neurasténicos, organoneuróticos y los pacientes psicosomáticos, destacan en su cuadro clínico general la actitud hipocondríaca.",
+    "source_text": "**Enfermedad**: Hipocondría\n**Abstract**\nLa hipocondría o hipocondriasis es una condición en la cual"
+  },
+  {
+    "disease": "Hipotiroidismo",
+    "treatment_types": [
+      "levotiroxina"
+    ],
+    "treatment_options": [
+      "dosis variables según los resultados de laboratorio",
+      "dosis inesperadamente elevadas",
+      "dosis irregulares",
+      "ajustes frecuentes",
+      "intolerancia a ciertos excipientes",
+      "interacciones con otros tratamientos",
+      "momento de ingestión del fármaco"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "medida de la hormona estimulante del tiroides (TSH)",
+      "medida de la tiroxina libre (T4-L)"
+    ],
+    "diagnostic_notes": "sus niveles pueden verse afectados por enfermedades no tiroideas",
+    "source_text": "**Enfermedad**: Hipotiroidismo\n**Abstract**\nEl hipotiroidismo es una enfermedad del sistema endocrin"
+  },
+  {
+    "disease": "Síndrome de Bertolotti",
+    "treatment_types": [
+      "inyecciones de esteroides",
+      "ablación sensorial por radiofrecuencia",
+      "fisioterapia",
+      "intervención quirúrgica"
+    ],
+    "treatment_options": [
+      "inyecciones de esteroides en la zona lumbar",
+      "ablación sensorial por radiofrecuencia",
+      "fisioterapia",
+      "fusión posterolateral",
+      "resección de la articulación transicional"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "rayos X",
+      "resonancia magnética"
+    ],
+    "diagnostic_notes": "historial del paciente y estudios de imágenes como rayos X y resonancia magnética",
+    "source_text": "**Enfermedad**: Síndrome de Bertolotti\n**Abstract**\nEl síndrome de Bertolotti o mega apófisis transv"
+  },
+  {
+    "disease": "Cáncer de la ampolla de Vater",
+    "treatment_types": [
+      "Pancreaticoduodenectomía (procedimiento de Whipple)",
+      "Ampulectomía quirúrgica (escisión local quirúrgica)",
+      "Ampulectomía endoscópica"
+    ],
+    "treatment_options": [],
+    "success_probability": "media",
+    "diagnostic_methods": [
+      "Tomografía computarizada de abdomen con/sin medio de contraste",
+      "Resonancia magnética con medio de contraste",
+      "Colangiopancreatografía retrógada endoscópica (CPRE)",
+      "Ultrasonido endoscópico"
+    ],
+    "diagnostic_notes": "El 95% de las lesiones del ámpula de Vater diagnosticadas por endoscopía son adenomas o adenocarcinomas. Posee pobre sensibilidad para el diagnóstico de lesiones 'periampulares'. Implica la exposición a radiación ionizante. El medio de contraste utilizado puede generar nefrotoxicidad por lo cual tiene poca utilidad en aquellos pacientes con insuficiencia renal. Es un procedimiento caro y prolongado. Se considera un método invasivo e incrementa el riesgo de infección postquirúrgica.",
+    "source_text": "**Enfermedad**: Cáncer de la ampolla de Vater\n**Abstract**\nEl cáncer ampular, cáncer de la ampollla "
+  },
+  {
+    "error": "Unterminated string starting at: line 19 column 23 (char 883)",
+    "raw": "{\n  \"disease\": \"Periodontitis\",\n  \"treatment_types\": [\"Mecánico\", \"Antibiótico\", \"Quirúrgico\", \"Químico\"],\n  \"treatment_options\": [\n    \"Técnicas de cepillado adecuada\",\n    \"Raspado coronal o eliminación de placa y cálculos supragingivales\",\n    \"Raspado y alisado radicular para el desbridamiento de las bolsas periodontales\",\n    \"Terapia de mantenimiento para el control a largo plazo de las enfermedades periodontales\",\n    \"Cultivo bacteriano y antibiograma\",\n    \"Amoxicilina junto con el ácido clavulánico a dosis altas\",\n    \"Desbridamiento con colgajo para las bolsas profundas\",\n    \"Osteoplastia y ostectomía\",\n    \"Proteínas de la matriz del esmalte\",\n    \"Plasma rico en factores de crecimiento\",\n    \"Enjugues con digluconato de clorhexidina al 0,12%\"\n  ],\n  \"success_probability\": \"desconocida\",\n  \"diagnostic_methods\": [\"Sondaje periodontal\"],\n  \"diagnostic_notes\": \"Formación de una bolsa periodontal, medida con sondaje de diagnóstico periodontal, valores de referencia para mantenimientos, pérdida de inserción, pérdida de hueso, sangrado espontáneo, tumefacción y enroj"
+  },
+  {
+    "error": "Unterminated string starting at: line 1 column 223 (char 222)",
+    "raw": "{\"disease\": \"Enfermedad vascular periférica (EVP) o enfermedad arterial periférica (EAP)\", \"treatment_types\": [\"cesación tabáquica\", \"manejo de la diabetes\", \"manejo de la hipertensión\", \"medicación con antiplaquetarios\", \"medicación con aspirina"
+  },
+  {
+    "disease": "Enfermedad de La Peyronie",
+    "treatment_types": [
+      "cirugía"
+    ],
+    "treatment_options": [
+      "plicatura de los cuerpos cavernosos"
+    ],
+    "success_probability": "alta",
+    "diagnostic_methods": [
+      "inspección",
+      "palpación"
+    ],
+    "diagnostic_notes": "no_specific_notes",
+    "source_text": "**Enfermedad**: Enfermedad de La Peyronie\n**Abstract**\nLa enfermedad de La Peyronie, también llamada"
+  },
+  {
+    "disease": "Estenosis de la arteria renal",
+    "treatment_types": [
+      "Medicamentos",
+      "Tratamiento quirúrgico"
+    ],
+    "treatment_options": [
+      "Antagonista de receptores de angiotensina II",
+      "Inhibidores de la ECA",
+      "Angioplastia renal",
+      "Colocación de stent"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Ecografía dúplex",
+      "Angiotomografía computarizada",
+      "Angioresonancia magnética"
+    ],
+    "diagnostic_notes": "Con sospecha por síntomas, insuficiencia renal e hipertensión arterial severa que no responde al tratamiento. Se confirma con ecografía dúplex, angiotomografía computarizada y angioresonancia magnética.",
+    "source_text": "**Enfermedad**: Estenosis de la arteria renal\n**Abstract**\nEn medicina, se conoce como estenosis de "
+  },
+  {
+    "disease": "Virus sincitial respiratorio",
+    "treatment_types": [
+      "hidratación y oxigenación",
+      "ribavirina",
+      "Palivizumab",
+      "Nirsevimab"
+    ],
+    "treatment_options": [
+      "hidratación y oxigenación",
+      "ribavirina",
+      "Palivizumab",
+      "Nirsevimab"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Inmunofluorescencia directa",
+      "Cultivo en shell vial",
+      "Test de antígenos",
+      "Amplificación de ácidos nucleicos por PCR"
+    ],
+    "diagnostic_notes": "desconocida",
+    "source_text": "**Enfermedad**: Virus sincitial respiratorio\n**Abstract**\nEl virus respiratorio sincitial humano (VR"
+  },
+  {
+    "disease": "Síndrome de las piernas inquietas",
+    "treatment_types": [
+      "Levodopa",
+      "Dopaminérgicos",
+      "Opiáceos",
+      "Benzodiazepinas",
+      "Antiepilépticos",
+      "Suplementos dietéticos de hierro"
+    ],
+    "treatment_options": [
+      "clínicas del sueño",
+      "detección de síntomas",
+      "análisis de sangre de ferritinas"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "detección de cuatro síntomas",
+      "análisis de sangre de ferritinas"
+    ],
+    "diagnostic_notes": "Mayor necesidad de moverse o sensaciones poco placenteras en las extremidades son mayor en los periodos de tarde/noche. Disminución de síntomas con movimiento. Potencial hereditaria.",
+    "source_text": "**Enfermedad**: Síndrome de las piernas inquietas\n**Abstract**\nEl síndrome de Willis-Ekbom o síndrom"
+  },
+  {
+    "disease": "Fibrosis retroperitoneal",
+    "treatment_types": [
+      "quirúrgico",
+      "terapia con corticoides",
+      "medicamentos inmunosupresores"
+    ],
+    "treatment_options": [
+      "extirpación de la masa de tejido endurecido",
+      "liberación de los uréteres y otros órganos o tejidos comprimidos",
+      "corte y reconexión de los uréteres",
+      "terapia con corticoides",
+      "medicamentos inmunosupresores"
+    ],
+    "success_probability": "alta",
+    "diagnostic_methods": [
+      "urografía excretora (UE)",
+      "biopsia",
+      "TAC",
+      "US",
+      "IRM"
+    ],
+    "diagnostic_notes": "normalmente se realiza tardíamente debido a la inespecificidad de la enfermedad",
+    "source_text": "**Enfermedad**: Fibrosis retroperitoneal\n**Abstract**\nFibrosis retroperitoneal o Enfermedad de Ormon"
+  },
+  {
+    "disease": "Retroversión uterina",
+    "treatment_types": [
+      "intervención quirúrgica"
+    ],
+    "treatment_options": [],
+    "success_probability": "baja",
+    "diagnostic_methods": [
+      "examen pélvico",
+      "examen rectovaginal",
+      "ultrasonido"
+    ],
+    "diagnostic_notes": "El examen pélvico puede confundirse con una masa pélvica o de un crecimiento de fibroma. Un examen rectovaginal es suficiente para distinguir entre una masa y un útero en retroversión. Un examen de ultrasonido puede determinar la posición específica del útero.",
+    "source_text": "**Enfermedad**: Retroversión uterina\n**Abstract**\nLa retroversión uterina o también llamado útero in"
+  },
+  {
+    "disease": "Síndrome de Reye",
+    "treatment_types": [
+      "tratamiento de sostén",
+      "mantenimiento de las funciones vitales",
+      "corrección de parámetros sanguíneos",
+      "prevención de lesiones cerebrales",
+      "manejo de los líquidos",
+      "apoyo mecánico para la función respiratoria"
+    ],
+    "treatment_options": [
+      "fármacos que ayudan en encefalopatías",
+      "diuréticos osmóticos",
+      "sedantes",
+      "barbitúricos",
+      "antibióticos para infecciones secundarias"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "antecedentes del paciente",
+      "síntomas",
+      "examen físico",
+      "laboratorio de sangre",
+      "química sanguínea",
+      "tomografía",
+      "electroencefalograma",
+      "resonancia magnética"
+    ],
+    "diagnostic_notes": "somnolencia, vómitos, disfunción hepática, letargo, cambios del comportamiento y del nivel de conciencia, hiperventilación, diplopía, pérdida de sensibilidad de miembros, convulsiones, postura de descerebración, hepatomegalia, hipoglucemia, elevación de las enzimas hepáticas, aumento del amonio plasmático.",
+    "source_text": "**Enfermedad**: Síndrome de Reye\n**Abstract**\nEl síndrome de Reye es una enfermedad pediátrica grave"
+  },
+  {
+    "disease": "Fiebre reumática",
+    "treatment_types": [
+      "medidas generales",
+      "medicamentos específicos",
+      "salicitatos",
+      "corticoides"
+    ],
+    "treatment_options": [
+      "Penicilina Procaínica intramuscular cada 24 horas por 10 días",
+      "sulfametoxipiridacina 500 mg/día",
+      "eritromicina 500 mg/día",
+      "sedación en caso de enfermedad de Corea"
+    ],
+    "success_probability": "alta",
+    "diagnostic_methods": [
+      "criterios desarrollados por T. Duckett Jones",
+      "evidencia objetiva de infección post-estreptocócica"
+    ],
+    "diagnostic_notes": "Enfermedad debe encajar con dos menores o dos signos mayores para establecer diagnóstico definitivo",
+    "source_text": "**Enfermedad**: Fiebre reumática\n**Abstract**\nLa fiebre reumática es una enfermedad inflamatoria, no"
+  },
+  {
+    "error": "Unterminated string starting at: line 1 column 573 (char 572)",
+    "raw": "{\"disease\": \"Artritis reumatoide\", \"treatment_types\": [\"Tratamiento actual\"], \"treatment_options\": [\"reducir al mínimo los síntomas\", \"prevenir los daños estructurales de las articulaciones\", \"mantener la capacidad funcional\"], \"success_probability\": \"media\", \"diagnostic_methods\": [\"Presencia de alteraciones clínicas características\", \"exclusión de otros procesos inflamatorios\", \"presencia de factor reumatoide\", \"presencia de líquido sinovial inflamatorio\", \"alteraciones radiológicas de desmineralización ósea y erosiones en las articulaciones\"], \"diagnostic_notes\": \"El diagnóstico definitivo de la artritis reumatoide depende básicamente de la presencia de las alteraciones clínicas características y de la exclusión de otros procesos inflamatorios que pueden cursar con manifestaciones semejantes. De forma adicional, la presencia de factor reumatoide, un líquido sinovial inflamatorio y las alteraciones radiológicas de desmineralización ósea y erosiones en las articulaciones ayudarán al reumatólogo a confirmar el diagnóstico. El hecho de no cumplir estos criterios, sobre todo durante las primeras fases de la enfermedad, no excluye el diagnóstico. Sin embargo, en ocasiones el diagnó"
+  },
+  {
+    "disease": "Fractura costal",
+    "treatment_types": [
+      "Administración de analgésicos",
+      "Mantener reposo relativo",
+      "Realizar respiraciones profundas periódicamente",
+      "Administración de antiinflamatorios por vía intravenosa",
+      "Administración de derivados morfínicos",
+      "Administración de analgesia epidural",
+      "Cirugía en casos de complicaciones"
+    ],
+    "treatment_options": [
+      "Administración de analgésicos",
+      "Mantener reposo relativo",
+      "Realizar respiraciones profundas periódicamente",
+      "Administración de antiinflamatorios por vía intravenosa",
+      "Administración de derivados morfínicos",
+      "Administración de analgesia epidural",
+      "Cirugía"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Sintomatología",
+      "Exploración del paciente",
+      "Radiografía de tórax",
+      "Tomografía axial computarizada"
+    ],
+    "diagnostic_notes": "detecta una serie de signos específicos",
+    "source_text": "**Enfermedad**: Fractura costal\n**Abstract**\nLa fractura costal o fractura de costilla es una fractu"
+  },
+  {
+    "disease": "Raquitismo",
+    "treatment_types": [
+      "Reemplazo de deficiencia de calcio, fósforo o vitamina D",
+      "Buenos hábitos de postura",
+      "Dispositivos ortopédicos",
+      "Corrección quirúrgica"
+    ],
+    "treatment_options": [
+      "Pescado",
+      "Hígado",
+      "Leche procesada",
+      "Exposición moderada a luz solar"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Examen musculoesquelético",
+      "Niveles de calcio",
+      "Signo de Chvostek",
+      "Calcio sérico",
+      "Fósforo sérico",
+      "Fosfatasa alcalina sérica",
+      "Gases en sangre arterial",
+      "Radiografías de huesos",
+      "Biopsia ósea",
+      "PTH",
+      "Calcio en orina",
+      "Calcio ionizado"
+    ],
+    "diagnostic_notes": "Positivo el signo de Chvostek, niveles bajos de calcio, fósforo bajo, fosfatasa alta, acidosis metabólica, descalcificación o cambios en la forma o estructura de huesos en radiografías.",
+    "source_text": "**Enfermedad**: Raquitismo\n**Abstract**\nEl raquitismo (del griego ῥάχι-ς/-δος rhakhi(d) \"columna ver"
+  },
+  {
+    "disease": "Síndrome de Char",
+    "treatment_types": [
+      "medication",
+      "surgical_correction",
+      "catheter_procedure"
+    ],
+    "treatment_options": [
+      "medication (for premature babies)",
+      "surgery",
+      "catheterization"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "physical_examination",
+      "genetic_testing",
+      "TFAP2B_gene_sequence"
+    ],
+    "diagnostic_notes": "diagnosis can be made via physical examination of symptom trio and genetic/sequence testing of TFAP2B gene.",
+    "source_text": "**Enfermedad**: Síndrome de Char\n**Abstract**\nEl Síndrome de Char es una condición genética autosómi"
+  },
+  {
+    "disease": "Síndrome de Cushing",
+    "treatment_types": [
+      "Supresión de corticoides",
+      "Extirpación neuroquirúrgica de adenoma de hipófisis",
+      "Extirpación de tumor suprarrenal",
+      "Tratamiento médico con metopirona o ketoconazol",
+      "Tratamiento sustitutivo con cortisona"
+    ],
+    "treatment_options": [
+      "Laparoscopia",
+      "Lumbotomía"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Mediciones de sangre, orina y saliva de cortisol",
+      "Demostrar que el cortisol no frena tras administrar dexametasona",
+      "Niveles de ACTH comparativos",
+      "Pruebas radiofisiológicas como RMN de la hipófisis, TAC o RMN de suprarenales"
+    ],
+    "diagnostic_notes": "ACTH normal o elevada indica síndrome de Cushing ACTH-dependiente, ACTH baja indica síndrome de Cushing ACTH-independiente",
+    "source_text": "**Enfermedad**: Síndrome de Cushing\n**Abstract**\nEl síndrome de Cushing, también conocido como hiper"
+  },
+  {
+    "disease": "Síndrome de vómitos cíclicos",
+    "treatment_types": [
+      "abortar",
+      "acortar",
+      "prevenir"
+    ],
+    "treatment_options": [
+      "fármacos"
+    ],
+    "success_probability": "alta",
+    "diagnostic_methods": [
+      "descartar otras enfermedades"
+    ],
+    "diagnostic_notes": "pocos casos, pocos estudios",
+    "source_text": "**Enfermedad**: Síndrome de vómitos cíclicos\n**Abstract**\nEl síndrome de vómitos cíclicos es una enf"
+  },
+  {
+    "disease": "Fibrosis quística",
+    "treatment_types": [
+      "antibióticos",
+      "inhalación",
+      "medicamentos inhaladores",
+      "dispositivos mecánicos",
+      "terapia génica",
+      "trasplante",
+      "insulina",
+      "reemplazo enzimático",
+      "dieta saludable",
+      "ejercicio"
+    ],
+    "treatment_options": [
+      "administración intravenosa",
+      "administración inhalatoria",
+      "administración oral",
+      "dispositivos mecánicos",
+      "inhaladores"
+    ],
+    "success_probability": "alta",
+    "diagnostic_methods": [
+      "desconocida"
+    ],
+    "diagnostic_notes": "desconocida",
+    "source_text": "**Enfermedad**: Fibrosis quística\n**Abstract**\nLa fibrosis quística (abreviatura FQ) es una enfermed"
+  },
+  {
+    "disease": "Cistinuria",
+    "treatment_types": [
+      "Beber más de 3 o 4 litros de agua al día",
+      "Alcalinizar la orina con preparados como el bicarbonato sódico"
+    ],
+    "treatment_options": [
+      "Cirugía abierta",
+      "Nefrolitotomía percutánea",
+      "Cistoscopía",
+      "Endourología ureteral con litofragamentación directa con láser-holmio"
+    ],
+    "success_probability": "alta",
+    "diagnostic_methods": [
+      "Determinación de la composición exacta de los cálculos",
+      "Hipercistinuria",
+      "Caracterización del gen implicado"
+    ],
+    "diagnostic_notes": "Identificación microscópica de cristales hexagonales planos en el sedimento urinario, observado más fácilmente en la primera orina de la mañana. Precipitación de cristales con ácido acético, aspecto macroscópico de color miel-caramelo, céreo, brillante muy duro. Morfología y tamaño variable, estructura microcristalina prismática hexagonal.",
+    "source_text": "**Enfermedad**: Cistinuria\n**Abstract**\nLa cistinuria es una enfermedad hereditaria con un patrón de"
+  },
+  {
+    "disease": "Distrofia muscular congénita de Ullrich",
+    "treatment_types": [
+      "fisioterapia",
+      "prevención de las infecciones pulmonares",
+      "soporte respiratorio con ventilación nocturna"
+    ],
+    "treatment_options": [
+      "no existe tratamiento específico",
+      "investigaciones en busca de nuevos procedimientos terapéuticos"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "síntomas",
+      "biopsia muscular",
+      "estudios de laboratorio para mutaciones en genes de colágeno VI"
+    ],
+    "diagnostic_notes": "confirmación por biopsia muscular y estudios de laboratorio que demuestran mutaciones",
+    "source_text": "**Enfermedad**: Distrofia muscular congénita de Ullrich\n**Abstract**\nLa distrofia muscular congénita"
+  },
+  {
+    "error": "Unterminated string starting at: line 1 column 590 (char 589)",
+    "raw": "{\"disease\": \"Síndrome de Usher\", \"treatment_types\": [\"terapias para mejorar la vida\", \"implante coclear\", \"terapia génica\", \"células encapsuladas\", \"células madre\"], \"treatment_options\": [\"implantación de un implante coclear\", \"terapia génica con lentivirus\", \"terapia con células encapsuladas\", \"terapia con células madre\"], \"success_probability\": \"media\", \"diagnostic_methods\": [\"audímetro\", \"electronistagmografia (ENG)\", \"evaluación de la visión lateral\", \"evaluación de visión en la oscuridad\", \"sensibilidad al color y al contraste\", \"electrorretinograma (ERG)\"],\"diagnostic_notes\": \"confirmar mediante estudio"
+  },
+  {
+    "disease": "VIPoma",
+    "treatment_types": [
+      "intravenous fluid replacement",
+      "octreotide administration",
+      "surgical removal"
+    ],
+    "treatment_options": [
+      "intravenous fluids",
+      "octreotide",
+      "surgery"
+    ],
+    "success_probability": "alta",
+    "diagnostic_methods": [
+      "blood VIP level test",
+      "CT scan",
+      "somatostatin receptor gamma imaging"
+    ],
+    "diagnostic_notes": "elevated VIP in fasting blood",
+    "source_text": "**Enfermedad**: VIPoma\n**Abstract**\nUn VIPoma, también conocido como síndrome de Verner Morrison por"
+  },
+  {
+    "disease": "Vaginitis",
+    "treatment_types": [
+      "Óvulos o comprimidos de uso tópico",
+      "Fármacos vía oral",
+      "Antihistamínico",
+      "Crema tópica con estrógenos de aplicación nocturna",
+      "Crema que se inserta por fuera de la zona vaginal"
+    ],
+    "treatment_options": [
+      "Óvulos o comprimidos de uso tópico",
+      "Fármacos vía oral",
+      "Antihistamínico",
+      "Crema tópica con estrógenos de aplicación nocturna",
+      "Crema que se inserta por fuera de la zona vaginal"
+    ],
+    "success_probability": "alta",
+    "diagnostic_methods": [
+      "Exploración ginecológica simple",
+      "Muestra de secreción vaginal",
+      "Microscopia",
+      "Cultivo de la muestra"
+    ],
+    "diagnostic_notes": "rápido y sencillo",
+    "source_text": "**Enfermedad**: Vaginitis\n**Abstract**\nLa vaginitis es un proceso inflamatorio de la mucosa vaginal "
+  },
+  {
+    "disease": "Varicocele",
+    "treatment_types": [
+      "support escrotal",
+      "fármaco vasoconstrictor",
+      "ligadura quirúrgica",
+      "embolización"
+    ],
+    "treatment_options": [
+      "varicocelectomía",
+      "inguinal",
+      "retroperitoneal",
+      "infrainguinal/subinguinal"
+    ],
+    "success_probability": "media",
+    "diagnostic_methods": [
+      "palpación",
+      "maniobra de Valsalva",
+      "ecografía",
+      "ecografia Doppler"
+    ],
+    "diagnostic_notes": "más pequeño testículo, dilatación de los vasos del plexo pampiniforme a más de 2 mm",
+    "source_text": "**Enfermedad**: Varicocele\n**Abstract**\nEn medicina, el término varicocele\n**Tratamiento**\nLos varic"
+  },
+  {
+    "disease": "Taquicardia ventricular",
+    "treatment_types": [
+      "Tratamiento de la cardiopatía de base que causa la taquicardia ventricular.",
+      "Medicamentos antiarrítmicos orales (tales como procainamida, amiodarona o sotalol).",
+      "Procedimiento de ablación por radiofrecuencia.",
+      "Implantar un dispositivo llamado desfibrilador implantable.",
+      "Resucitación cardiopulmonar.",
+      "Desfibrilación eléctrica."
+    ],
+    "treatment_options": [],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Síntomas del paciente.",
+      "Electrocardiograma de confirmación.",
+      "Ecocardiografía.",
+      "Prueba de esfuerzo.",
+      "Estudios electrofisiológicos."
+    ],
+    "diagnostic_notes": "sospecha por los síntomas que presenta el paciente",
+    "source_text": "**Enfermedad**: Taquicardia ventricular\n**Abstract**\nLa taquicardia ventricular es un tipo de arritm"
+  },
+  {
+    "disease": "Fístula enterovesical",
+    "treatment_types": [
+      "fistulectomía por abdomen abierto",
+      "fistulectomía por laparoscopia"
+    ],
+    "treatment_options": [
+      "quirúrgico"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "cistoscopia",
+      "colonoscopia",
+      "prueba de semilla de amapola",
+      "ultrasonografía transabdominal",
+      "CT Abdominopelvica",
+      "MRI",
+      "enema de Bario",
+      "test de Bourne",
+      "cistograma"
+    ],
+    "diagnostic_notes": "se sigue un algoritmo definido de pruebas para hacer el diagnóstico",
+    "source_text": "**Enfermedad**: Fístula enterovesical\n**Abstract**\nLa fístula enterovesical o vesicointestinal es un"
+  },
+  {
+    "error": "Unterminated string starting at: line 9 column 24 (char 1210)",
+    "raw": "{\"disease\": \"Neurinoma del acústico\", \"treatment_types\": [\"cirugía\", \"radiocirugía\", \"abstención terapéutica\"], \"treatment_options\": [\n    \"La extirpación del tumor mediante cirugía, existiendo diferentes técnicas quirúrgicas, cada una de las cuales estará más indicada en función del tamaño del tumor y del grado de pérdida auditiva principalmente. Todas ellas, dada la región anatómica tan delicada en la que se encuentra el tumor, tienen un cierto índice de mortalidad (entre el 0,4 % y el 4 % según la técnica empleada) y, en ocasiones, secuelas posquirúrgicas como pérdida auditiva completa en ese oído, parálisis facial, inestabilidad, etcétera., que variarán en porcentaje también según el tamaño tumoral y la técnica quirúrgica empleada.\",\n    \"La radiocirugía proporciona un control del crecimiento tumoral (no crecen o se reducen) del 85 al 97 % según diferentes series.\",\n    \"Abstención terapéutica con una estrecha vigilancia del tumor mediante resonancia magnética.\"\n], \"success_probability\": \"desconocida\", \"diagnostic_methods\": [\n    \"Audiometría tonal\",\n    \"Resonancia magnética craneal con contraste Gadolinio\",\n    \"Potenciales Evocados Auditivos de Tronco Cerebral\"\n], \"diagnostic_notes\": \"La"
+  },
+  {
+    "disease": "Leishmaniosis visceral",
+    "treatment_types": [
+      "antimoniales pentavalentes",
+      "antimoniato de meglumina",
+      "estibogluconato sódico",
+      "gluconato de antimonio sódico",
+      "anfotericina B",
+      "anfotericina B liposomal"
+    ],
+    "treatment_options": [
+      "India"
+    ],
+    "success_probability": "baja",
+    "diagnostic_methods": [
+      "directo",
+      "inmunocromatografía del antígeno rK39",
+      "PCR",
+      "test de aglutinación directa"
+    ],
+    "diagnostic_notes": "Diagnóstico directo se basa en realizar la demostración de leishmania en material procedente de la biopsia de ganglios linfáticos, médula ósea, hígado o bazo. Puede realizarse un frotis directo de la muestra o realizar un cultivo en medio de Senekjie.",
+    "source_text": "**Enfermedad**: Leishmaniosis visceral\n**Abstract**\nLa leishmaniosis visceral, también conocida como"
+  },
+  {
+    "disease": "Vitiligo",
+    "treatment_types": [
+      "corticosteroides tópicos",
+      "inhibidores de la calcineurina",
+      "medicamentos sistémicos",
+      "terapia de luz UVB",
+      "tratamiento quirúrgico"
+    ],
+    "treatment_options": [
+      "betametasona",
+      "clobetasol",
+      "tacrolimus",
+      "pimecrolimus",
+      "dexametasona",
+      "minociclina",
+      "luz UVB",
+      "Recell",
+      "microinjertos estimulados",
+      "trasplantes de epidermis"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "clínico",
+      "examen bajo la luz de Wood"
+    ],
+    "diagnostic_notes": "desconocida",
+    "source_text": "**Enfermedad**: Vitiligo\n**Abstract**\nEl vitiligo o vitíligo es una enfermedad de la piel adquirida,"
+  },
+  {
+    "disease": "Trombosis venosa profunda",
+    "treatment_types": [
+      "heparina",
+      "anticoagulantes orales"
+    ],
+    "treatment_options": [
+      "5 días",
+      "prolongado",
+      "variable"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "flebografía por vía intravenosa",
+      "flebografia por TC",
+      "Eco-Doppler"
+    ],
+    "diagnostic_notes": "flebografía por vía intravenosa es invasiva, técnico-dependiente, el contraste tiene efectos secundarios, y está indicada al poner un filtro de la vena cava inferior. Flebografía por TC.",
+    "source_text": "**Enfermedad**: Trombosis venosa profunda\n**Abstract**\nLa trombosis venosa profunda —generalmente ab"
+  },
+  {
+    "disease": "Trastorno de despersonalización",
+    "treatment_types": [
+      "terapias cognitivo-conductuales",
+      "psicotrópicos"
+    ],
+    "treatment_options": [
+      "naloxona"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Structured Clinical Interview for DSM-V Dissociative Disorders (SCID-D)",
+      "Dissociative Experiences Scale (DES)",
+      "Dissociative Disorders Interview Schedule (DDIS)"
+    ],
+    "diagnostic_notes": "SCID-D dura entre 30 minutos y una hora y media; DES es un cuestionario autoadministrado rápido y sencillo; DDIS usualmente puede administrarse entre 30 y 40 minutos.",
+    "source_text": "**Enfermedad**: Trastorno de despersonalización\n**Abstract**\nEl trastorno de despersonalización es u"
+  },
+  {
+    "disease": "Dermatofibrosarcoma protuberans",
+    "treatment_types": [
+      "quirúrgico",
+      "quimioterapia",
+      "radioterapia",
+      "CCPDMA",
+      "cirugía de Mohs",
+      "radioterapia adyuvante",
+      "cirugía micrográfica de Mohs",
+      "imatinib"
+    ],
+    "treatment_options": [
+      "resección quirúrgica completa con márgenes de 2 a 4 cm",
+      "radioterapia adyuvante",
+      "cirugía micrográfica de Mohs"
+    ],
+    "success_probability": "alta",
+    "diagnostic_methods": [
+      "biopsia"
+    ],
+    "diagnostic_notes": "biopsia inicial de un presunto DFPS se hace generalmente con una aguja gruesa o una incisión quirúrgica",
+    "source_text": "**Enfermedad**: Dermatofibrosarcoma protuberans\n**Abstract**\nDermatofibrosarcoma protuberans (DFSP)\n"
+  },
+  {
+    "disease": "Neumonía intersticial descamativa",
+    "treatment_types": [
+      "Corticoides",
+      "Abandono del hábito tabáquico"
+    ],
+    "treatment_options": [
+      "Transplante de pulmón"
+    ],
+    "success_probability": "alta",
+    "diagnostic_methods": [
+      "Pruebas de imagen",
+      "Biopsia pulmonar"
+    ],
+    "diagnostic_notes": "Presencia de abundantes macrófagos en los alveolos pulmonares, infiltrado inflamatorio septal constituido por linfocitos, eosinófilos e histiocitos",
+    "source_text": "**Enfermedad**: Neumonía intersticial descamativa\n**Abstract**\nLa neumonía intersticial descamativa "
+  },
+  {
+    "disease": "Dispraxia verbal",
+    "treatment_types": [
+      "intense",
+      "individualized",
+      "terapia de lenguaje",
+      "principios de teoría de aprendizaje motor",
+      "práctica intensiva",
+      "terapia multi-sensorial"
+    ],
+    "treatment_options": [
+      "aproximadamente 3-5 sesiones cada semana",
+      "máximo de 30 minutos cada sesión",
+      "no necesario la terapia motora oral sin hablar"
+    ],
+    "success_probability": "media",
+    "diagnostic_methods": [
+      "pruebas espicíficas",
+      "soplando",
+      "lamiendo los labios",
+      "elevando la lengua",
+      "examen de la boca",
+      "observation of speech while eating"
+    ],
+    "diagnostic_notes": "no diagnosis posible para niños de 2 años o menos",
+    "source_text": "**Enfermedad**: Dispraxia verbal\n**Abstract**\nLa dispraxia verbal es un trastorno en cual los niños "
+  },
+  {
+    "disease": "Arco aórtico doble",
+    "treatment_types": [
+      "corrección quirúrgica",
+      "enfoque conservador (espera vigilante)",
+      "seguimiento regular"
+    ],
+    "treatment_options": [
+      "corrección quirúrgica para síntomas obstructivos",
+      "enfoque conservador para ausencia de síntomas",
+      "seguimiento regular para síntomas muy leves"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "ultrasonido fetal",
+      "radiografía de tórax",
+      "esofagrafía",
+      "broncoscopia",
+      "ecocardiografía",
+      "tomografía computarizada (TC)",
+      "imagen de resonancia magnética (MRI)",
+      "cateterización / aortografía cardíaca"
+    ],
+    "diagnostic_notes": "Diagnóstico prenatal mediante ultrasonido fetal, evidencia de desviación traqueal y / o compresión en radiografía de tórax, hendiduras en los lados izquierdo y derecho en esofagrafía, compresión pulsátil visualizada mediante broncoscopia, diagnóstico sensible y específico mediante ecocardiografía en bebés menores de 12 meses, precisión diagnóstica mediante tomografía computarizada (TC), visualización de estructuras circundantes mediante imagen de resonancia magnética (MRI), evaluación de anatomía y hemodinámica mediante cateterización / aortografía cardíaca.",
+    "source_text": "**Enfermedad**: Arco aórtico doble\n**Abstract**\nEl arco aórtico doble (AAD) es una malformación card"
+  },
+  {
+    "disease": "Duodenitis",
+    "treatment_types": [
+      "Erradicación de Helicobacter pylori",
+      "Omeprazol"
+    ],
+    "treatment_options": [
+      "Macrólidos",
+      "Omeprazol"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Endoscopía digestiva alta",
+      "Biopsia"
+    ],
+    "diagnostic_notes": "dependiente de la causa subyacente",
+    "source_text": "**Enfermedad**: Duodenitis\n**Abstract**\nLa duodenitis es el proceso inflamatorio de diversa etiologí"
+  },
+  {
+    "disease": "Tumor disembrioplástico neuroepitelial",
+    "treatment_types": [
+      "Extirpación quirúrgica"
+    ],
+    "treatment_options": [
+      "Control de los ataques"
+    ],
+    "success_probability": "baja",
+    "diagnostic_methods": [
+      "Diagnóstico"
+    ],
+    "diagnostic_notes": "desconocida",
+    "source_text": "**Enfermedad**: Tumor disembrioplástico neuroepitelial\n**Abstract**\nEl Tumor disembrioplástico neuro"
+  },
+  {
+    "disease": "Síndrome de Eagle",
+    "treatment_types": [
+      "medicamentos analgésicos",
+      "antidepresivos",
+      "anticonvulsivos",
+      "inyección de corticoides",
+      "intervención quirúrgica"
+    ],
+    "treatment_options": [
+      "vía intraoral",
+      "vía externa"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "pruebas de imagen",
+      "radiografía",
+      "TAC"
+    ],
+    "diagnostic_notes": "los síntomas suelen empeorar en la palpación de la apófisis estiloides",
+    "source_text": "**Enfermedad**: Síndrome de Eagle\n**Abstract**\nEl síndrome de Eagle, también conocido como síndrome "
+  },
+  {
+    "disease": "Taquicardia sinusal inapropiada",
+    "treatment_types": [
+      "Farmacológico",
+      "Invasivo"
+    ],
+    "treatment_options": [
+      "Betabloqueantes",
+      "Inhibidores selectivos del canal If del nódulo sinusal (como ivabradina)",
+      "Bloqueadores de los canales de calcio",
+      "Agentes antiarrítmicos",
+      "Fármacos ISRS",
+      "Fludrocortisona"
+    ],
+    "success_probability": "baja",
+    "diagnostic_methods": [
+      "Exclusión de otras causas",
+      "Exclusión de formas comunes de TSV",
+      "Morfología normal de la onda P",
+      "Taquicardia sinusal en reposo",
+      "Caída nocturna de la frecuencia cardíaca",
+      "Respuesta inapropiada de la frecuencia cardíaca al hacer ejercicio",
+      "Frecuencia cardíaca media en 24 horas superior a 90-95 lpm",
+      "Documentación de que los síntomas se deben a taquicardia",
+      "Hipotensión ocasional",
+      "Síncope ocasional"
+    ],
+    "diagnostic_notes": "No existen criterios de diagnóstico formales.",
+    "source_text": "**Enfermedad**: Taquicardia sinusal inapropiada\n**Abstract**\nLa taquicardia sinusal inapropiada es u"
+  },
+  {
+    "disease": "malestares agudos, crónicos o recurrentes localizados en el epigastrio, como dolor, ardor, distensión, saciedad precoz, plenitud, eructos, náuseas o vómitos",
+    "treatment_types": [],
+    "treatment_options": [],
+    "success_probability": "baja",
+    "diagnostic_methods": [
+      "criterios de Roma IV",
+      "endoscopia gastrointestinal alta"
+    ],
+    "diagnostic_notes": "El diagnóstico inicial de dispepsia puede hacerse utilizando los criterios de Roma IV, que permiten establecer el diagnóstico de dispepsia funcional si están presentes los siguientes síntomas: plenitud posprandial, saciedad temprana, dolor epigástrico, o ardor epigástrico; descartando una enfermedad orgánica mediante una endoscopia gastrointestinal alta que pueda explicarlos. En la práctica diaria, los médicos limitan la realización de la endoscopia a determinados casos concretos, siguiendo directrices clínicas basadas en la edad, la presencia de síntomas de alarma de malignidad y costo-efectividad. Una revisión de 2018 concluye que estos criterios están sustentados en evidencias de baja o, como mucho, moderada calidad.",
+    "source_text": "**Enfermedad**: Dispepsia\n**Abstract**\nLa dispepsia, también llamada indigestión o empacho, es un sí"
+  },
+  {
+    "disease": "Síndrome de dificultad respiratoria neonatal",
+    "treatment_types": [
+      "Administración de surfactante",
+      "Oxígeno suplementario",
+      "Asistencia respiratoria con ventilador o respirador"
+    ],
+    "treatment_options": [
+      "Corticosteroides"
+    ],
+    "success_probability": "media",
+    "diagnostic_methods": [
+      "Prueba de Silverman y Anderson",
+      "Test de Apgar",
+      "Radiografía de tórax",
+      "Gasometría arterial"
+    ],
+    "diagnostic_notes": "Puntuación elevada en la prueba de Silverman y Anderson indica dificultad respiratoria; apariencia de 'vidrio molido' en radiografía de tórax; bajos niveles de oxígeno y exceso de ácido en gasometría arterial; exámenes de laboratorio para descartar infección o sepsis.",
+    "source_text": "**Enfermedad**: Síndrome de dificultad respiratoria neonatal\n**Abstract**\nEl síndrome de dificultad "
+  },
+  {
+    "error": "Unterminated string starting at: line 10 column 5 (char 230)",
+    "raw": "{\n  \"disease\": \"Trastorno explosivo intermitente\",\n  \"treatment_types\": [\n    \"terapia cognitivo-conductual\",\n    \"tratamiento farmacológico\",\n    \"anxiolíticos\"\n  ],\n  \"treatment_options\": [\n    \"antidepresivos tricíclicos\",\n    \"inhibidores selectivos de la recaptación de ser"
+  },
+  {
+    "disease": "Interrupción del arco aórtico",
+    "treatment_types": [
+      "tratamiento médico",
+      "administración de prostaglandinas",
+      "cirugía"
+    ],
+    "treatment_options": [
+      "estabilización de los síntomas",
+      "evitar el cierre del ductus arteriosus",
+      "restitución de la continuidad de la arteria aorta"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "síntomas",
+      "exploración del enfermo",
+      "radiografía de tórax",
+      "ecocardiografía"
+    ],
+    "diagnostic_notes": "aumento del tamaño del corazón (cardiomegalia)",
+    "source_text": "**Enfermedad**: Interrupción del arco aórtico\n**Abstract**\nLa interrupción del arco aórtico es una g"
+  },
+  {
+    "disease": "Nefritis intersticial aguda",
+    "treatment_types": [
+      "suspender fármaco",
+      "glucocorticoides como prednisolona o metilprednisolona"
+    ],
+    "treatment_options": [],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "clínico",
+      "análisis de orina",
+      "análisis de sangre",
+      "biopsia renal"
+    ],
+    "diagnostic_notes": "excluir otras causas de nefropatía aguda",
+    "source_text": "**Enfermedad**: Nefritis intersticial aguda\n**Abstract**\nLa nefritis intersticial aguda (también con"
+  },
+  {
+    "disease": "Malrotación intestinal",
+    "treatment_types": [
+      "Procedimiento de Ladd"
+    ],
+    "treatment_options": [
+      "Reanimación con líquidos",
+      "Corrección de vólvulo",
+      "Corte de bandas fibrosas de Ladd",
+      "Ensanchar el pedículo mesentérico",
+      "Posicionamiento de los intestinos delgado y grueso"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Serie gastrointestinal superior",
+      "Ecografía",
+      "Tomografía computarizada",
+      "Resonancia magnética"
+    ],
+    "diagnostic_notes": "Falsos negativos en el 5% de los casos, atribuidos a errores del radiógrafo, pacientes pediátricos que no cooperan o variaciones en la posición intestinal.",
+    "source_text": "**Enfermedad**: Malrotación intestinal\n**Abstract**\nLa malrotación intestinal es una anomalía congén"
+  },
+  {
+    "disease": "Infección intestinal por parásitos",
+    "treatment_types": [
+      "medicamentos antihelmínticos"
+    ],
+    "treatment_options": [
+      "praziquantel"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "recolección de muestras de heces",
+      "aplicación de adhesivo en el ano"
+    ],
+    "diagnostic_notes": "Sin datos específicos",
+    "source_text": "**Enfermedad**: Infección intestinal por parásitos\n**Abstract**\nUna infección intestinal por parásit"
+  },
+  {
+    "disease": "aneurisma cerebral",
+    "treatment_types": [
+      "cirugía cerebral para colocar un clip en el cuello del aneurisma",
+      "embolización endovascular",
+      "embolización utilizando Onyx para aneurismas de cuello ancho",
+      "microcirugía",
+      "terapia endovascular"
+    ],
+    "treatment_options": [
+      "Seldinger technique",
+      "coils de diversos tamaños",
+      "stent",
+      "Willis-covered stent",
+      "paseo del flujo arterial con la técnica de ELANA"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "imágenes cerebrales"
+    ],
+    "diagnostic_notes": "La mayoría de los aneurismas cerebrales pasan desapercibidos hasta que se rompen o se detectan a través de imágenes cerebrales que pueden haberse obtenido por otra afección.",
+    "source_text": "**Enfermedad**: Aneurisma cerebral\n**Abstract**\nUn aneurisma cerebral o aneurisma de una arteria cer"
+  },
+  {
+    "disease": "Colestasis del embarazo",
+    "treatment_types": [
+      "Ácido ursodesoxicólico"
+    ],
+    "treatment_options": [
+      "Reduce picazón",
+      "Puede provocar parto prematuro",
+      "Aumenta el peso de nacimiento"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Presencia de picazón",
+      "Alteración de exámenes de sangre",
+      "Ausencia de un diagnóstico alternativo"
+    ],
+    "diagnostic_notes": "Descartar diagnósticos alternativos como enfermedades dermatológicas comunes, preeclampsia, síndrome HELLP, hígado graso agudo del embarazo, hepatitis viral, fármacos, cirrosis biliar primaria o colangitis esclerosante primaria.",
+    "source_text": "**Enfermedad**: Colestasis del embarazo\n**Abstract**\nLa colestasis del embarazo o colestasia del emb"
+  },
+  {
+    "disease": "Miofibroblastoma en empalizada de ganglio linfático",
+    "treatment_types": [
+      "escision quirúrgica"
+    ],
+    "treatment_options": [
+      "curativa"
+    ],
+    "success_probability": "baja",
+    "diagnostic_methods": [
+      "examen del tejido",
+      "inmunohistoquímica"
+    ],
+    "diagnostic_notes": "contiene células fusiformes con núcleos en empalizada, extravasación de eritrocitos, vasos sanguíneos rodeados por colágeno con (fines) haces (fibras amiantoides), actina de músculo liso y ciclina D1 positivo. Principal diagnóstico diferencial histológico: schwannoma, sarcoma de Kaposi y hemangioendotelioma.",
+    "source_text": "**Enfermedad**: Miofibroblastoma en empalizada de ganglio linfático\n**Abstract**\nEl miofibroblastoma"
+  },
+  {
+    "disease": "Hipoxia fetal",
+    "treatment_types": [
+      "disminución de la temperatura corporal central",
+      "terapia de hipotermia para la encefalopatía neonatal"
+    ],
+    "treatment_options": [
+      "aire normal",
+      "100% de oxígeno"
+    ],
+    "success_probability": "media",
+    "diagnostic_methods": [
+      "oximetría fetal"
+    ],
+    "diagnostic_notes": "desconocida",
+    "source_text": "**Enfermedad**: Hipoxia fetal\n**Abstract**\nLa hipoxia fetal es una disminución del aporte de oxígeno"
+  },
+  {
+    "disease": "fiebre hemorrágica de Marburgo",
+    "treatment_types": [
+      "terapia de apoyo",
+      "fluidos y electrolitos",
+      "anticoagulantes",
+      "procoagulantes",
+      "oxígeno",
+      "analgesia",
+      "antibióticos/antifúngicos"
+    ],
+    "treatment_options": [
+      "fluidos y electrolitos",
+      "anticoagulantes",
+      "procoagulantes",
+      "oxígeno",
+      "analgesia",
+      "antibióticos/antifúngicos"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "curso clínico",
+      "datos epidemiológicos",
+      "aislamiento del virus",
+      "evidencia de respuesta inmunitaria",
+      "presencia de material genómico viral",
+      "ensayos de inmunofluorescencia indirecta",
+      "PCR",
+      "inmunofluorescencia",
+      "histoquímica",
+      "ELISA"
+    ],
+    "diagnostic_notes": "indistinguible de la fiebre hemorrágica del Ébola, confunde con otras enfermedades prevalentes en el África Ecuatorial, confunde con enfermedades infecciosas y no infecciosas",
+    "source_text": "**Enfermedad**: Fiebre hemorrágica de Marburgo\n**Abstract**\nLa fiebre hemorrágica de Marburgo es el "
+  },
+  {
+    "disease": "Envenenamiento por salicilato",
+    "treatment_types": [
+      "Reanimación",
+      "Descontaminación gástrica con carbón activado"
+    ],
+    "treatment_options": [
+      "Administración de carbón adicional si los niveles de salicilato en suero están aumentando",
+      "No inducir vómitos con jarabe de ipecacuana"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Medición del salicilato plasmático por métodos espectrofotométricos automáticos"
+    ],
+    "diagnostic_notes": "Niveles de salicilato en plasma oscilan entre 3 y 10 mg/dL, 50–300 mg/l en pacientes que toman dosis altas y 700–1400 mg/l después de una sobredosis aguda. Los niveles plasmáticos deben evaluarse cuatro horas después de la ingestión y luego cada dos horas para permitir el cálculo del nivel máximo.",
+    "source_text": "**Enfermedad**: Envenenamiento por salicilato\n**Abstract**\nEl envenenamiento por salicilato, también"
+  },
+  {
+    "disease": "Deficiencia de adhesión leucocitaria tipo 1",
+    "treatment_types": [
+      "Tratamiento de la sintomatología: antibióticos",
+      "Tratamiento curativo: trasplante de médula ósea",
+      "Administración de fucosa para LAD-II"
+    ],
+    "treatment_options": [
+      "antibióticos",
+      "trasplante de médula ósea",
+      "fucosa"
+    ],
+    "success_probability": "baja",
+    "diagnostic_methods": [
+      "Recuento de leucocitos",
+      "Citometría de flujo",
+      "PCR",
+      "Análisis prenatal de vellosidades coriónicas y amniocitos"
+    ],
+    "diagnostic_notes": "Se puede diagnosticar de forma directa mediante un recuento de leucocitos en sangre y especialmente con empleo de la citometría de flujo. Esta última consiste en utilizar anticuerpos monoclonales para ver la expresión de CD11b y CD18, siendo la técnica más utilizada en esta enfermedad. Por otro lado, se puede llevar a cabo un diagnóstico genético mediante PCR (Reacción en Cadena de Polimerasa) y un diagnóstico prenatal viendo antecedentes familiares o bien realizando un análisis de vellosidades coriónicas y amniocitos.",
+    "source_text": "**Enfermedad**: Deficiencia de adhesión leucocitaria tipo 1\n**Abstract**\nDeficiencia de adhesión leu"
+  },
+  {
+    "disease": "Liquen escleroso",
+    "treatment_types": [],
+    "treatment_options": [],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "biopsia de la piel"
+    ],
+    "diagnostic_notes": "Hiperqueratosis, epidermis atrófica, esclerosis de la dermis y actividad de los linfocitos en la dermis son hallazgos histológicos asociados con LS. Las biopsias también se revisan para detectar signos de displasia. Diagnóstico clínico de BXO puede ser 'casi inconfundible'. Sin embargo, hay otras condiciones dermatológicas como el liquen plano, la esclerodermia localizada, la leucoplasia, el vitíligo y la erupción cutánea de la enfermedad de Lyme pueden tener un aspecto similar.",
+    "source_text": "**Enfermedad**: Liquen escleroso\n**Abstract**\nBalanitis xerótica obliterante (BXO) es una enfermedad"
+  },
+  {
+    "disease": "Cor pulmonale",
+    "treatment_types": [
+      "trombólisis",
+      "terapia con oxígeno",
+      "reducción del trabajo respiratorio",
+      "diuréticos",
+      "bloqueadores de los canales de calcio",
+      "anticoagulantes",
+      "inhibidores de la fosfodiesterasa",
+      "prostaciclina"
+    ],
+    "treatment_options": [
+      "ventilación mecánica no invasiva",
+      "broncodilatadores",
+      "esteroides",
+      "transfusión",
+      "flebotomía",
+      "nitratos",
+      "fármacos inotropos"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Electrocardiograma (ECG)",
+      "Ecocardiograma",
+      "Ecografía Doppler",
+      "Radiografía de tórax",
+      "TAC del tórax",
+      "Pruebas de función pulmonar",
+      "Gases sanguíneos",
+      "Cateterización de Swan-Ganz"
+    ],
+    "diagnostic_notes": "El diagnóstico requiere evaluar la posible disfunción del ventrículo izquierdo.",
+    "source_text": "**Enfermedad**: Cor pulmonale\n**Abstract**\nCor pulmonale, viene del latín cor o cordis que significa"
+  },
+  {
+    "disease": "ureterocele",
+    "treatment_types": [
+      "quirúrgico",
+      "instrumental",
+      "observacional"
+    ],
+    "treatment_options": [
+      "drenaje",
+      "resección del sistema colector duplicado",
+      "resección parcial del riñón",
+      "instalación de un stent"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "ecografía del tracto urinario",
+      "pielografía endovenosa"
+    ],
+    "diagnostic_notes": "Detecta duplicidad pielocalicilar, hidronefrosis, obstrucciones intrínsecas y extrínsecas",
+    "source_text": "**Enfermedad**: Ureterocele\n**Abstract**\nEl ureterocele es la dilatación quística del uréter distal "
+  },
+  {
+    "disease": "Cáncer tiroideo",
+    "treatment_types": [
+      "Tratamiento quirúrgico",
+      "Radiación",
+      "Traqueostomía"
+    ],
+    "treatment_options": [
+      "Hemitiroidectomia",
+      "Tiroidectomía total"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Ecografía de alta resolución",
+      "Punción-aspiración con aguja fina (PAAF)",
+      "Biopsia de tiroides",
+      "Gammagrafía de tiroides",
+      "Laringoscopia"
+    ],
+    "diagnostic_notes": "nódulo irregular, hipoecogénico, sin halo de seguridad, calcificaciones, crecimiento, vascularización intranodular, nódulo frío, cuerdas vocales paralizadas, concentraciones elevadas de calcitonina, concentraciones elevadas de tiroglobulina",
+    "source_text": "**Enfermedad**: Cáncer tiroideo\n**Abstract**\nEl cáncer tiroideo (también conocido como cáncer de tir"
+  },
+  {
+    "disease": "Cáncer de pene",
+    "treatment_types": [
+      "Extirpación con márgenes amplios",
+      "Láser",
+      "Glandectomía",
+      "Penectomía total o subtotal",
+      "Radioterapia externa",
+      "Quimioterapia"
+    ],
+    "treatment_options": [
+      "Extirpación con márgenes amplios",
+      "Láser",
+      "Glandectomía",
+      "Penectomía total o subtotal",
+      "Radioterapia externa",
+      "Quimioterapia"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Biopsia de la lesión sospechosa"
+    ],
+    "diagnostic_notes": "La muestra debe analizarse en un laboratorio de Anatomía Patológica.",
+    "source_text": "**Enfermedad**: Cáncer de pene\n**Abstract**\nEl cáncer de pene es un tumor maligno que tiene una inci"
+  },
+  {
+    "disease": "Descarga uretral",
+    "treatment_types": [
+      "antibióticos",
+      "ceftriaxona",
+      "azitromicina"
+    ],
+    "treatment_options": [
+      "una sola dosis"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "observation",
+      "characteristics_analysis",
+      "anamnesis"
+    ],
+    "diagnostic_notes": "purulenta, muco-purulenta, serosa, sero-sanguinolenta",
+    "source_text": "**Enfermedad**: Descarga uretral\n**Abstract**\nLa descarga uretral es la salida involuntaria de una s"
+  },
+  {
+    "disease": "Hemorragia posparto",
+    "treatment_types": [
+      "Tratamiento de cualquier paciente con hemorragia",
+      "Evaluación de efectividad circulatoria",
+      "Transfusión sanguínea"
+    ],
+    "treatment_options": [
+      "Posición de Trendelenburg",
+      "Vías intravenosas",
+      "Coloides",
+      "Paquetes globulares"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Disminución del 10% en la hemoglobina",
+      "Signos y síntomas de hipovolemia"
+    ],
+    "diagnostic_notes": "No útiles en situaciones agudas, pueden ser hallazgos normales al final del parto de una mujer joven y sana",
+    "source_text": "**Enfermedad**: Hemorragia posparto\n**Abstract**\nEn obstetricia, la hemorragia postparto se define c"
+  },
+  {
+    "disease": "Depresión posparto",
+    "treatment_types": [
+      "intervenciones psicológicas",
+      "antidepresivos"
+    ],
+    "treatment_options": [
+      "intervenciones psicológicas y médicas"
+    ],
+    "success_probability": "media",
+    "diagnostic_methods": [
+      "Manual Diagnóstico y Estadístico de Trastornos Mentales 5.º ed. (DSM-V)"
+    ],
+    "diagnostic_notes": "trastorno depresivo con inicio periparto",
+    "source_text": "**Enfermedad**: Depresión posparto\n**Abstract**\nPara leer sobre otros tipos de depresión, ver Trasto"
+  },
+  {
+    "disease": "Embarazo prolongado",
+    "treatment_types": [
+      "expectante con pruebas de bienestar fetal",
+      "inducción del parto"
+    ],
+    "treatment_options": [
+      "40 semanas",
+      "41 semanas",
+      "42 semanas",
+      "más semanas"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "confiabilidad de la edad gestacional",
+      "ecografía gestacional precoz"
+    ],
+    "diagnostic_notes": "Ecografía gestacional del tercer trimestre no es útil para diagnóstico, considerar antecedentes no confiables para ciclos menstruales irregulares, consumo de anticonceptivos orales y lactancia.",
+    "source_text": "**Enfermedad**: Embarazo prolongado\n**Abstract**\nSe designa como embarazo prolongado (EP) a todo aqu"
+  },
+  {
+    "disease": "Hemorragia subgaleal",
+    "treatment_types": [
+      "atención cuidadosa",
+      "manejo de complicaciones",
+      "fluido en bolo",
+      "transfusión",
+      "fototerapia",
+      "investigación para coagulopatía"
+    ],
+    "treatment_options": [
+      "fluido en bolo",
+      "transfusión",
+      "fototerapia"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "diferenciación entre cefalohematoma y caput succedaneum"
+    ],
+    "diagnostic_notes": "Las hemorragias subgaleales pueden causar convulsiones",
+    "source_text": "**Enfermedad**: Hemorragia subgaleal\n**Abstract**\nHematoma o hemorragia subgaleal es un sangrado en "
+  },
+  {
+    "disease": "Cáncer",
+    "treatment_types": [
+      "Cirugía",
+      "Quimioterapia",
+      "Radioterapia",
+      "Inmunoterapia",
+      "Hormonoterapia",
+      "Trasplante de Médula Ósea"
+    ],
+    "treatment_options": [
+      "Médico de Familia",
+      "Cirujano",
+      "Radioterapeuta",
+      "Oncólogo",
+      "Dermatólogo",
+      "Neumólogo",
+      "Ginecólogo",
+      "Imagenólogo",
+      "Gastroenterólogo"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Historia Clínica",
+      "Pruebas Complementarias",
+      "Biopsia",
+      "Estudios Moleculares o Genéticos"
+    ],
+    "diagnostic_notes": "Los síntomas pueden variar dependiendo del órgano afectado.",
+    "source_text": "**Enfermedad**: Cáncer\n**Abstract**\nEl término cáncer es el nombre común que recibe un conjunto de e"
+  },
+  {
+    "disease": "Candidiasis",
+    "treatment_types": [
+      "clotrimazol tópico",
+      "nistatina tópica",
+      "fluconazol",
+      "ketoconazol tópico",
+      "fluconazol oral",
+      "anfotericina B",
+      "caspofungina",
+      "voriconazol",
+      "violeta de genciana",
+      "dióxido de cloro"
+    ],
+    "treatment_options": [
+      "solo tópico",
+      "oral",
+      "local",
+      "vaginal",
+      "supositorios vaginales",
+      "enjuague bucal de gluconato de clorhexidina"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "examen microscópico",
+      "urocultivos"
+    ],
+    "diagnostic_notes": "El diagnóstico puede incluir la eliminación al raspado.",
+    "source_text": "**Enfermedad**: Candidiasis\n**Abstract**\nLa candidiasis es una infección fúngica (micosis) de cualqu"
+  },
+  {
+    "disease": "Moquillo",
+    "treatment_types": [
+      "azatioprina",
+      "antibióticos",
+      "fluidos hidroelectrolíticos",
+      "suplementos vitamínicos",
+      "tratamientos puntuales para síntomas",
+      "tratamiento de convulsiones"
+    ],
+    "treatment_options": [
+      "azatioprina",
+      "antibióticos",
+      "fluidos hidroelectrolíticos",
+      "suplementos vitamínicos",
+      "tratamientos puntuales para síntomas",
+      "tratamiento de convulsiones"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "detección del virus en las células conjuntivas"
+    ],
+    "diagnostic_notes": "La fiebre, los indicios respiratorios, digestivos y neurológicos, y el endurecimiento de las almohadillas plantares son una fuerte evidencia diagnóstica del moquillo",
+    "source_text": "**Enfermedad**: Moquillo\n**Abstract**\nEl moquillo, también conocido como distemper o enfermedad de C"
+  },
+  {
+    "disease": "Tumor carcinoide",
+    "treatment_types": [
+      "Cirugía"
+    ],
+    "treatment_options": [
+      "resecabilidad",
+      "operabilidad"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "gammagrafía marcada con octreótido",
+      "tomografía por emisión de positrones (PET)"
+    ],
+    "diagnostic_notes": "capacidad del tumor para sintetizar diversos péptidos hormonales, localización de receptores de somatostatina en la superficie tumoral",
+    "source_text": "**Enfermedad**: Tumor carcinoide\n**Abstract**\nEl tumor carcinoide es un tipo de cáncer que deriva de"
+  },
+  {
+    "disease": "Taponamiento cardíaco",
+    "treatment_types": [],
+    "treatment_options": [],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "radiological",
+      "ecocardiogram",
+      "electrocardiogram"
+    ],
+    "diagnostic_notes": "Diagnosticado clínicamente con signos y síntomas. Radiológicamente, ecocardiograma muestra derrame pericárdico, colapso de las aurículas o del ventrículo derecho, y vena cava inferior dilatada. Electrocardiograma puede demostrar voltaje bajo y alternancia eléctrica. Radiografía de tórax puede mostrar un corazón globoso.",
+    "source_text": "**Enfermedad**: Taponamiento cardíaco\n**Abstract**\nEl taponamiento cardíaco, llamado también taponam"
+  },
+  {
+    "error": "Unterminated string starting at: line 1 column 906 (char 905)",
+    "raw": "{\"disease\": \"Complejo de Carney\", \"treatment_types\": [\"estudios iniciales\", \"exploracion_fisica\", \"estudios_hormonales\", \"ecografia_abdominal\", \"ecografia_testicular\", \"ecografia_tiroidea\", \"serie_ossea\", \"ecografia_mamaria\", \"TAC_suprarrenal\", \"manejo_quirurgico\"], \"treatment_options\": [\"cirugía_cardiaca\", \"adrenalectomia_bilateral\", \"cirugia_transesfenoidal\", \"cirugia_quirurgica_tumores_tiroideos\"], \"success_probability\": \"desconocida\", \"diagnostic_methods\": [\"criterios_clinicos\", \"distribuccion_de_típica_lentigos\", \"mixomas_cutaneos_o_mucosos\", \"mixomas_cardíacos\", \"mixomatosis_de_mama\", \"adenoma_ductal_de_mama\", \"enfermedad_adrenocortical_nodular_pigmentada_primaria\", \"acromegalia_por_adenoma_productor_de_GH\", \"carcinoma_tiroideo_o_nodos_hipoecoicos_múltiples_en_persona_joven\", \"schwanoma_psamomatoso_melanocítico\", \"nevus_azules_tipo_epitelioide\", \"osteocondromixoma\"],\"diagnostic_notes\": \"requieren_de_dos_o_mas_criterios_clinicos"
+  },
+  {
+    "disease": "Absceso hepático amebiano",
+    "treatment_types": [
+      "Metronidazol",
+      "Punción y aspiración del absceso",
+      "Cirugía"
+    ],
+    "treatment_options": [
+      "Metronidazol",
+      "Punción y aspiración del absceso",
+      "Cirugía"
+    ],
+    "success_probability": "media",
+    "diagnostic_methods": [
+      "Síntomas",
+      "Antecedentes epidemiológicos",
+      "Hemaglutinación",
+      "ELISA",
+      "PCR",
+      "Ecografía",
+      "Resonancia magnética nuclear",
+      "Tomografía axial computarizada"
+    ],
+    "diagnostic_notes": "Detecta ADN de Entamoeba histolytica",
+    "source_text": "**Enfermedad**: Absceso hepático amebiano\n**Abstract**\nEl absceso hepático amebiano es una complicac"
+  },
+  {
+    "disease": "Síndrome de Beckwith-Wiedemann",
+    "treatment_types": [
+      "Líquidos intravenosos",
+      "Reparación de defectos abdominales",
+      "Seguimiento para tumores"
+    ],
+    "treatment_options": [],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Test genético"
+    ],
+    "diagnostic_notes": "No hay criterio consensuado, considerar mosaicismo, asociados menos comunes observaciones, historial familiar positivo, macrosomía, pliegues en lóbulo de oreja, macroglosia, onfalocele/hernia umbilical, visceromegalia, tumor embrionario, hiperplasia, citomegalia del cortex adrenal fetal, anomalías renales, displasia mesenquimal de la placenta, cardiomegalia, paladar hendido, polihidramnios, prematuridad, hipoglucemia neonatal, malformaciones vasculares, anomalías cardíacas estructurales, diastasis recti, edad ósea avanzada, rasgos faciales característicos.",
+    "source_text": "**Enfermedad**: Síndrome de Beckwith-Wiedemann\n**Abstract**\nEl síndrome Beckwith-Wiedemann (SBW) es "
+  },
+  {
+    "disease": "Síndrome de Benedikt",
+    "treatment_types": [
+      "Estabilización del paciente",
+      "Evitar edema cerebral",
+      "Cirugía para tuberculomas",
+      "Estimulación cerebral profunda"
+    ],
+    "treatment_options": [
+      "Estabilización del paciente",
+      "Evitar edema cerebral",
+      "Cirugía para tuberculomas",
+      "Estimulación cerebral profunda"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Tomografía"
+    ],
+    "diagnostic_notes": "Diferenciación con el síndrome de Weber puede ser complicada a menos que exista una clara afectación del núcleo rojo.",
+    "source_text": "**Enfermedad**: Síndrome de Benedikt\n**Abstract**\nEl síndrome de Benedikt, también denominado síndro"
+  },
+  {
+    "disease": "Hiperplasia benigna de próstata",
+    "treatment_types": [],
+    "treatment_options": [],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "tacto rectal",
+      "análisis de sangre para testear la malignidad de la hiperplasia de la próstata",
+      "reinterpretación del resultado del PSA, en términos de densidad y % libre de PSA",
+      "ultrasonografía transrectal",
+      "examen ecográfico de testículos, próstata y riñones"
+    ],
+    "diagnostic_notes": "el tacto rectal puede revelar una próstata marcadamente agrandada y asperezas de textura que pudieran ser síntoma de cáncer",
+    "source_text": "**Enfermedad**: Hiperplasia benigna de próstata\n**Abstract**\nLa hiperplasia benigna prostática (HBP)"
+  },
+  {
+    "disease": "Preeclampsia",
+    "treatment_types": [
+      "Criterios para manejo ambulatorio",
+      "Maternos",
+      "Fetales"
+    ],
+    "treatment_options": [
+      "Consulta 1-2 veces por semana",
+      "Reposo relativo",
+      "Dieta normal",
+      "TA, peso y multistick diarios",
+      "Proteinuria 24h, hemograma, bioquímica y coagulación semanales",
+      "Información sobre síntomas prodrómicos de eclampsia",
+      "Control diario de movimientos fetales",
+      "PNS semanal a partir de la semana 28",
+      "Eco-Doppler cada dos semanas"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "elevación de la presión arterial",
+      "proteinuria"
+    ],
+    "diagnostic_notes": "una elevación de la presión arterial de 20 mmHg del valor sistólico (el valor más alto) y de 15 mmHg del valor diastólico (el valor más bajo), aunque no llegue al requerimiento de 140/90, es considerado de importancia aunque ya no se considera diagnóstico.",
+    "source_text": "**Enfermedad**: Preeclampsia\n**Abstract**\nLa preeclampsia, preeclampsia toxemia (PET) o hipertensión"
+  },
+  {
+    "disease": "Extrasístole ventricular",
+    "treatment_types": [
+      "reglas higieno-dietéticas",
+      "tratamiento sedante ansiolítico",
+      "antiarrítmicos",
+      "ablación por radiofrecuencia"
+    ],
+    "treatment_options": [
+      "betabloqueantes",
+      "amiodarona",
+      "bloqueadores de los canales de calcio"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "electrocardiograma",
+      "holter cardíaco"
+    ],
+    "diagnostic_notes": "Se puede utilizar el electrocardiograma si son frecuentes. Si son raros, un holter cardíaco es útil.",
+    "source_text": "**Enfermedad**: Extrasístole ventricular\n**Abstract**\nUna extrasístole ventricular (\"ESV\") es una co"
+  },
+  {
+    "disease": "Priapismo",
+    "treatment_types": [
+      "Bloqueo del nervio dorsal del pene",
+      "Anillo de bloqueo"
+    ],
+    "treatment_options": [
+      "Compresas frías y presión",
+      "Bloqueo del nervio dorsal del pene",
+      "Anillo de bloqueo"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Historia de la enfermedad y examen físico",
+      "Prueba de gas en sangre del pene",
+      "Color de ultrasonido",
+      "Prueba de hemoglobinopatía"
+    ],
+    "diagnostic_notes": "Diagnóstico basado en historia de la enfermedad y el examen físico",
+    "source_text": "**Enfermedad**: Priapismo\n**Abstract**\nEl priapismo es una condición en la que el pene sigue erecto "
+  },
+  {
+    "disease": "Proctitis",
+    "treatment_types": [
+      "antibióticos",
+      "5-aminosalicyclic acid (5ASA)",
+      "corticoides",
+      "suplementos de fibra como Psyllium plantago (Metamucil)"
+    ],
+    "treatment_options": [
+      "enema",
+      "supositorios",
+      "pastillas",
+      "combinación oral y rectal",
+      "jabonoso enema",
+      "Bohl o fosfosoda como laxante"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "endoscopio",
+      "insuflación",
+      "biopsia histopatológica",
+      "cultivos bacteriológicos",
+      "estudios de imágenes radiológicas",
+      "Enema opaco doble contraste",
+      "studios de tomografía axial computerizada",
+      "estudios analíticos de laboratorio",
+      "PCR",
+      "velocidad de sedimentación globular",
+      "hemograma"
+    ],
+    "diagnostic_notes": "existen ciertos riesgos potenciales de complicaciones como la de perforación traumática del recto, sangrados tras la toma de biopsias, presencia de anticoagulantes orales o medicaciones antiagregantes plaquetarios",
+    "source_text": "**Enfermedad**: Proctitis\n**Abstract**\nLa proctitis es un proceso inflamatorio propio del recto, que"
+  },
+  {
+    "disease": "Prolactinoma",
+    "treatment_types": [
+      "Radiocirugía",
+      "Medicamentos orales",
+      "Cirugía transesfenoidal"
+    ],
+    "treatment_options": [
+      "Microadenomas",
+      "Macroadenomas"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Resonancia Magnética",
+      "Fluxo o medio de contraste"
+    ],
+    "diagnostic_notes": "Detecta generalmente adenomas hipofisarios de tipo prolactinoma",
+    "source_text": "**Enfermedad**: Prolactinoma\n**Abstract**\nSe denomina prolactinoma al tumor benigno secretor, compue"
+  },
+  {
+    "disease": "Prosopagnosia",
+    "treatment_types": [],
+    "treatment_options": [],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "prueba de análisis de rostros famosos",
+      "prueba de reconocimiento facial Bentonde (BFRT)",
+      "Índice de Prosopagnosia 20 (PI20)",
+      "Prueba de Memoria de Rostros de Cambridge"
+    ],
+    "diagnostic_notes": "La prueba de BFRT fue cuestionada por su fiabilidad. La prueba de análisis de rostros famosos es difícil de estandarizar.",
+    "source_text": "**Enfermedad**: Prosopagnosia\n**Abstract**\nProsopagnosia (proviene del griego πρόσωπον: cara, y de ἀ"
+  },
+  {
+    "disease": "Síndrome del abdomen en ciruela pasa",
+    "treatment_types": [
+      "absencia de músculos abdominales",
+      "criptorquidia",
+      "piel arrugada en el vientre"
+    ],
+    "treatment_options": [
+      "operaciones de reconstrucción vesical",
+      "operaciones antirreflujo",
+      "reforzamiento de las paredes abdominales",
+      "orquidopexia estética y profiláctica del cáncer del testículo retenido"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "ultrasonido o ecosonograma",
+      "cistouretrograma"
+    ],
+    "diagnostic_notes": "El indicador más prominente es una gran masa abdominal ocupante de espacio por razón de la presión de la orina acumulada.",
+    "source_text": "**Enfermedad**: Síndrome del abdomen en ciruela pasa\n**Abstract**\nEl síndrome del abdomen en ciruela"
+  },
+  {
+    "disease": "Incontinencia afectiva",
+    "treatment_types": [
+      "antidepresivos tricíclicos",
+      "inhibidores selectivos de la recaptación de serotonina"
+    ],
+    "treatment_options": [
+      "sertralina",
+      "fluoxetina",
+      "citalopram",
+      "nortriptilina",
+      "amitriptilina",
+      "fluvoxamina",
+      "paroxetina",
+      "dextrometorfano",
+      "quinidina"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "entrevista clínica",
+      "observación directa del paciente",
+      "escala de labilidad del Centro de Estudios Neurológicos (CNS-LS)",
+      "escala PLACS"
+    ],
+    "diagnostic_notes": "detectar por medio de la entrevista clínica, la observación directa del paciente y diversas escalas.",
+    "source_text": "**Enfermedad**: Incontinencia afectiva\n**Abstract**\nLa incontinencia afectiva se define como la pérd"
+  },
+  {
+    "disease": "Psoriasis",
+    "treatment_types": [
+      "Individualized treatment",
+      "Medication"
+    ],
+    "treatment_options": [],
+    "success_probability": "baja",
+    "diagnostic_methods": [
+      "Clinical examination",
+      "Dermatological biopsy"
+    ],
+    "diagnostic_notes": "Can be difficult for non-dermatologists to diagnose due to various clinical presentations and resemblance with other papulo-squamous skin diseases.",
+    "source_text": "**Enfermedad**: Psoriasis\n**Abstract**\nLa psoriasis o soriasis (AFI: [soˈɾja.sis], del griego ψώρα, "
+  },
+  {
+    "disease": "Edema pulmonar",
+    "treatment_types": [
+      "Oxígeno (mascarilla o diminutas cánulas plásticas)",
+      "Tubo de respiración (en la tráquea)",
+      "Respirador (máquina de respiración)"
+    ],
+    "treatment_options": [
+      "Oxígeno (mascarilla o diminutas cánulas plásticas)",
+      "Tubo de respiración (en la tráquea)",
+      "Respirador (máquina de respiración)"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Examen físico",
+      "Auscultación con estetoscopio",
+      "Niveles de oxígeno en la sangre",
+      "Radiografía de tórax",
+      "Ecocardiograma"
+    ],
+    "diagnostic_notes": "Aumento de la frecuencia cardíaca y respiratoria, Sonidos crepitantes en los pulmones o sonidos cardíacos anormales, Coloración azulosa de la piel (cianosis)",
+    "source_text": "**Enfermedad**: Edema pulmonar\n**Abstract**\nUn edema pulmonar es una acumulación anormal de líquido "
+  },
+  {
+    "disease": "Tromboembolia pulmonar",
+    "treatment_types": [
+      "anticoagulantes",
+      "oxígeno",
+      "analgesia"
+    ],
+    "treatment_options": [
+      "hospitalización",
+      "tratamiento en casa"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "criterios clínicos",
+      "angiograma pulmonar por TC (CTPA)",
+      "ecografía por compresión proximal de miembros inferiores (CUS)"
+    ],
+    "diagnostic_notes": "criterios clínicos validados combinados con pruebas selectivas; imágenes médicas basadas en razonamiento clínico",
+    "source_text": "**Enfermedad**: Tromboembolismo pulmonar\n**Abstract**\nLa tromboembolia pulmonar o tromboembolismo pu"
+  },
+  {
+    "disease": "Pielonefritis",
+    "treatment_types": [
+      "Antibióticos selectivos",
+      "Analgésicos y antitérmicos",
+      "Líquidos intravenosos (sueros)"
+    ],
+    "treatment_options": [
+      "vía intravenosa",
+      "a largo período de tiempo",
+      "antibiograma del urocultivo",
+      "cultivos de orina",
+      "studios por imagen del paciente",
+      "ecografía abdominal",
+      "inyección de una sustancia iodada"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "paliar el dolor",
+      "realizar un antibiograma del urocultivo",
+      "realizar cultivos de orina",
+      "realizar estudios por imagen del paciente"
+    ],
+    "diagnostic_notes": "Dolor al palpar la zona del riñón, proteinuria, hematuria, leucocitos y bacterias en los análisis de orina, cilindros de leucocitos en caso de infección en los túbulos renales, cultivo de orina revelando el microorganismo causante, cultivos sanguíneos mostrando la misma bacteria.",
+    "source_text": "**Enfermedad**: Pielonefritis\n**Abstract**\nLa pielonefritis o infección urinaria alta es una infecci"
+  },
+  {
+    "disease": "Estenosis pilórica",
+    "treatment_types": [
+      "Quirúrgico"
+    ],
+    "treatment_options": [
+      "Piloromiotomía"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Ecografía"
+    ],
+    "diagnostic_notes": "Confirmación del diagnóstico",
+    "source_text": "**Enfermedad**: Estenosis pilórica\n**Abstract**\nLa estenosis pilórica (o estenosis hipertrófica del "
+  },
+  {
+    "disease": "Fiebre Q",
+    "treatment_types": [
+      "Tetraciclinas",
+      "cloranfenicol"
+    ],
+    "treatment_options": [
+      "administración oral",
+      "administración intravenosa",
+      "tratamiento continuo con tetraciclina durante muchos meses",
+      "reemplazo valvular"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "exámenes serológicos",
+      "detección molecular de ADN bacteriano",
+      "Ecocardiografía transesofágica",
+      "biopsia hepática"
+    ],
+    "diagnostic_notes": "el cultivo es técnicamente difícil y no está disponible de forma rutinaria en la mayoría de los laboratorios de microbiología",
+    "source_text": "**Enfermedad**: Fiebre Q\n**Abstract**\nLa fiebre Q es una zoonosis causada por la bacteria Coxiella b"
+  },
+  {
+    "disease": "Rubeola",
+    "treatment_types": [
+      "Control de síntomas",
+      "Paracetamol",
+      "Aislamiento"
+    ],
+    "treatment_options": [
+      "Reposo",
+      "Antibióticos"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "Análisis de sangre (Serología)",
+      "Hemograma",
+      "Células E positivas"
+    ],
+    "diagnostic_notes": "Dificultad para diagnosticar debido a erupciones en la piel poco intensas y de escasa duración.",
+    "source_text": "**Enfermedad**: Rubeola\n**Abstract**\nLa rubeola, rubéola[nota 1] o rubiola es una enfermedad infecci"
+  },
+  {
+    "disease": "Síndrome de Rubinstein-Taybi",
+    "treatment_types": [
+      "terapia del lenguaje y cognitiva",
+      "reparación quirúrgica de los pulgares y dedos gordos del pie"
+    ],
+    "treatment_options": [
+      "no hay un tratamiento específico",
+      "reparación quirúrgica"
+    ],
+    "success_probability": "desconocida",
+    "diagnostic_methods": [
+      "estudios clínicos",
+      "FISH",
+      "estudios radiológicos"
+    ],
+    "diagnostic_notes": "confirmará el diagnóstico en un 25 % de los pacientes only if FISH is used.",
+    "source_text": "**Enfermedad**: Síndrome de Rubinstein-Taybi\n**Abstract**\nEl síndrome de Rubinstein-Taybi es un sínd"
+  }
+]
