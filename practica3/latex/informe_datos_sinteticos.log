@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.1.13)  1 APR 2026 23:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.1.13)  1 APR 2026 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -361,7 +361,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enitdp@description=\count284
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 25.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 38
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 36
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -378,26 +378,26 @@ LaTeX Info: Redefining \% on input line 22.
 )
 \openout1 = `informe_datos_sinteticos.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -458,57 +458,57 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 38.
+Package hyperref Info: Link coloring ON on input line 36.
 
 (./informe_datos_sinteticos.out) (./informe_datos_sinteticos.out)
 \@outlinefile=\write3
 \openout3 = `informe_datos_sinteticos.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-0.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-0.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-40.
+38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-40.
+38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 40.
+(Font)              <12> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 40.
+(Font)              <8> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 40.
+(Font)              <6> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 59.
+(Font)              <10.95> on input line 57.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-3.
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 []|[][]$\T1/lmtt/m/n/10.95 https : / / archive . ics . uci . edu / dataset / 17
  / breast +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 []|[][]$\T1/lmtt/m/n/10.95 https : / / scikit-[]learn . org / stable / modules 
 /
  []
@@ -517,47 +517,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/lm/lm-ec.enc}]
-<figures/class_balance.png, id=41, 462.528pt x 303.534pt>
+<figures/class_balance.png, id=42, 462.528pt x 303.534pt>
 File: figures/class_balance.png Graphic file (type png)
 <use figures/class_balance.png>
-Package pdftex.def Info: figures/class_balance.png  used on input line 89.
+Package pdftex.def Info: figures/class_balance.png  used on input line 87.
 (pdftex.def)             Requested size: 327.7763pt x 215.11232pt.
  [2]
 <figures/feature_distributions.png, id=51, 664.4825pt x 476.982pt>
 File: figures/feature_distributions.png Graphic file (type png)
 <use figures/feature_distributions.png>
 Package pdftex.def Info: figures/feature_distributions.png  used on input line 
-120.
+118.
 (pdftex.def)             Requested size: 409.71692pt x 294.11002pt.
  [3 <./figures/class_balance.png>]
 <figures/correlation_heatmaps.png, id=61, 786.137pt x 354.926pt>
 File: figures/correlation_heatmaps.png Graphic file (type png)
 <use figures/correlation_heatmaps.png>
 Package pdftex.def Info: figures/correlation_heatmaps.png  used on input line 1
-26.
+24.
 (pdftex.def)             Requested size: 400.61703pt x 180.86905pt.
 <figures/fidelity_table.png, id=62, 614.295pt x 201.9545pt>
 File: figures/fidelity_table.png Graphic file (type png)
 <use figures/fidelity_table.png>
-Package pdftex.def Info: figures/fidelity_table.png  used on input line 132.
+Package pdftex.def Info: figures/fidelity_table.png  used on input line 130.
 (pdftex.def)             Requested size: 400.61703pt x 131.70644pt.
 
 [4 <./figures/feature_distributions.png> <./figures/correlation_heatmaps.png>]
-Overfull \hbox (20.29318pt too wide) in paragraph at lines 144--152
+Overfull \hbox (20.29318pt too wide) in paragraph at lines 142--150
  [][] 
  []
 
 <figures/utility_roc_auc.png, id=71, 491.436pt x 303.534pt>
 File: figures/utility_roc_auc.png Graphic file (type png)
 <use figures/utility_roc_auc.png>
-Package pdftex.def Info: figures/utility_roc_auc.png  used on input line 159.
+Package pdftex.def Info: figures/utility_roc_auc.png  used on input line 157.
 (pdftex.def)             Requested size: 345.98302pt x 213.70433pt.
 [5 <./figures/fidelity_table.png>] [6{/usr/share/texlive/texmf-dist/fonts/enc/d
 vips/lm/lm-mathsy.enc} <./figures/utility_roc_auc.png>]
 <figures/privacy_dcr_nndr.png, id=91, 650.43pt x 303.534pt>
 File: figures/privacy_dcr_nndr.png Graphic file (type png)
 <use figures/privacy_dcr_nndr.png>
-Package pdftex.def Info: figures/privacy_dcr_nndr.png  used on input line 192.
+Package pdftex.def Info: figures/privacy_dcr_nndr.png  used on input line 190.
 (pdftex.def)             Requested size: 400.61703pt x 186.95714pt.
  [7 <./figures/privacy_dcr_nndr.png>] (./informe_datos_sinteticos.aux
 LaTeX Info: Redefining \. on input line 22.
@@ -574,14 +574,14 @@ Here is how much of TeX's memory you used:
  33067 multiletter control sequences out of 15000+600000
  556560 words of font info for 57 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 75i,12n,76p,772b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,76p,772b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/lm/lmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/lm/lmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmri10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on informe_datos_sinteticos.pdf (7 pages, 476299 bytes).
+Output written on informe_datos_sinteticos.pdf (7 pages, 475312 bytes).
 PDF statistics:
  141 PDF objects out of 1000 (max. 8388607)
  104 compressed objects within 2 object streams

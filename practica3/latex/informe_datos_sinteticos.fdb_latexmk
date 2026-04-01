@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1775077432.69039 "informe_datos_sinteticos.tex" "informe_datos_sinteticos.pdf" "informe_datos_sinteticos" 1775077433.54279 0
+["pdflatex"] 1775077943.87462 "informe_datos_sinteticos.tex" "informe_datos_sinteticos.pdf" "informe_datos_sinteticos" 1775077944.78367 0
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -108,9 +108,9 @@
   "figures/fidelity_table.png" 1775063774 73948 6667880990ff67b82ad520e34e3f2127 ""
   "figures/privacy_dcr_nndr.png" 1775063774 49642 a5e711ba84feb15f8bd3c99babbe311e ""
   "figures/utility_roc_auc.png" 1775063774 49293 23de1f8f7b3e197e073e91dd568908cc ""
-  "informe_datos_sinteticos.aux" 1775077433.46354 3036 76e029e82f827d01289ff71a9fbce3b3 "pdflatex"
-  "informe_datos_sinteticos.out" 1775077433.46454 752 efc6f07cd3c60475e8bee5b91cb214e9 "pdflatex"
-  "informe_datos_sinteticos.tex" 1775077410.06866 12504 6bb0a7962a62f1f6d3c9113d829bfda0 ""
+  "informe_datos_sinteticos.aux" 1775077944.69279 3036 76e029e82f827d01289ff71a9fbce3b3 "pdflatex"
+  "informe_datos_sinteticos.out" 1775077944.69379 752 efc6f07cd3c60475e8bee5b91cb214e9 "pdflatex"
+  "informe_datos_sinteticos.tex" 1775077917.80894 12422 a26c20308421eafd6718c0316ef97e9c ""
   (generated)
   "informe_datos_sinteticos.aux"
   "informe_datos_sinteticos.log"
