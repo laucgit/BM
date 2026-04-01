@@ -1,0 +1,200 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{enumitem}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue,
+    pdftitle={Generación y validación de datos sintéticos},
+    pdfauthor={Sustituir por nombres del equipo}
+}
+
+\setstretch{1.1}
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0pt}
+
+\title{\textbf{Generación y validación de datos sintéticos}\\
+\large Dataset médico tabular: Breast Cancer Wisconsin (Diagnostic)}
+\author{\textbf{Miembro 1:} Laura Cabaleiro Pintos \\
+\textbf{Miembro 2:} Marcelo Ferreiro Sánchez \\
+Asignatura: Bioinformática y Medicina}
+\date{\today}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section{Introducción}
+
+La generación de datos sintéticos se ha convertido en una herramienta de gran interés dentro del ámbito biomédico, especialmente en aquellos escenarios en los que el acceso a datos reales está limitado por cuestiones de privacidad, disponibilidad o tamaño muestral. En este contexto, los datos sintéticos permiten disponer de muestras artificiales que intentan reproducir las propiedades relevantes de un conjunto real, de forma que puedan emplearse en tareas de análisis, experimentación y desarrollo de modelos sin exponer directamente la información original de los pacientes.
+
+No obstante, la utilidad de un conjunto sintético no depende únicamente de su parecido visual o estadístico con los datos reales. Para que su uso sea razonable, es necesario comprobar al menos tres aspectos fundamentales. En primer lugar, la \textbf{fidelidad}, es decir, hasta qué punto los datos generados conservan las distribuciones y relaciones estadísticas presentes en el conjunto original. En segundo lugar, la \textbf{utilidad}, entendida como la capacidad de esos datos para servir en tareas analíticas o predictivas de forma similar a los datos reales. Por último, la \textbf{privacidad}, ya que un buen generador no debería limitarse a copiar o memorizar registros concretos del entrenamiento.
+
+En esta práctica se aborda este problema a partir de un dataset médico tabular público, utilizando una estrategia de generación basada en modelos de mezcla gaussianos condicionales por clase. A partir de ella, se construye un conjunto sintético y se evalúa de forma sistemática en términos de fidelidad, utilidad y privacidad. De este modo, el trabajo no se limita a generar datos artificiales, sino que estudia también si dichos datos resultan suficientemente realistas, útiles y seguros para su uso posterior.
+
+\section{Descripción del dataset y estrategia empleada}
+
+El conjunto de datos empleado en este trabajo es \textit{Breast Cancer Wisconsin (Diagnostic)}, un dataset médico tabular público disponible en el repositorio de la UCI. Se trata de un problema de clasificación binaria orientado al diagnóstico de lesiones mamarias a partir de medidas continuas extraídas de imágenes de aspirado con aguja fina. En total, el conjunto contiene 569 observaciones y 30 variables numéricas, lo que lo convierte en un caso adecuado para estudiar generación sintética en datos biomédicos estructurados.
+
+La Tabla~\ref{tab:resumen_inicial} resume los principales elementos del dataset, la estrategia de síntesis utilizada y la configuración experimental adoptada.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{>{\raggedright\arraybackslash}p{4.6cm} p{10cm}}
+\toprule
+\textbf{Elemento} & \textbf{Descripción} \\
+\midrule
+Enlace al dataset público & \url{https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic} \\
+Estrategia de generación & Gaussian Mixture Models condicionales por clase (una mezcla por etiqueta diagnóstica) \\
+Librería empleada & \url{https://scikit-learn.org/stable/modules/generated/sklearn.mixture.GaussianMixture.html} \\
+Tamaño del dataset & 569 filas y 30 variables continuas \\
+Partición experimental & Train real: 455 \;|\; Test real: 114 \;|\; Sintético: 455 \\
+\bottomrule
+\end{tabular}
+\caption{Resumen del dataset, la estrategia de generación y la configuración experimental.}
+\label{tab:resumen_inicial}
+\end{table}
+
+Para generar los datos sintéticos se ha seguido una estrategia \textit{class-conditional}. En lugar de ajustar un único modelo generativo sobre todo el conjunto, primero se separan las muestras según su etiqueta diagnóstica y después se entrena un modelo independiente para cada clase. Finalmente, se generan nuevas muestras sintéticas respetando la proporción original de clases observada en los datos reales. Este enfoque permite modelar de manera más precisa la estructura propia de cada grupo diagnóstico y favorece la conservación de la señal discriminativa relevante para la tarea clínica.
+
+La implementación se ha realizado mediante \textit{Gaussian Mixture Models} utilizando la librería \texttt{scikit-learn}. De forma resumida, el procedimiento seguido fue el siguiente:
+
+\begin{itemize}[leftmargin=1.2cm]
+    \item se aplicó un escalado estándar sobre el conjunto de entrenamiento real antes de ajustar los modelos generativos;
+    \item se seleccionó el número de componentes por criterio BIC, evaluando entre 1 y 4 componentes por clase;
+    \item tras la generación, se recortaron los valores sintéticos al rango observado en entrenamiento para evitar medidas biomédicas implausibles;
+    \item los modelos finalmente seleccionados utilizaron 4 componentes para la clase 0 y 4 componentes para la clase 1.
+\end{itemize}
+
+A partir de esta configuración, se generó un conjunto sintético de 455 instancias, igualando el tamaño del conjunto de entrenamiento real. Esta decisión facilita una comparación homogénea entre entrenamiento con datos reales y entrenamiento con datos sintéticos dentro de los experimentos posteriores.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.72\textwidth]{figures/class_balance.png}
+    \caption{El conjunto sintético preserva exactamente el balance de clases del train real.}
+\end{figure}
+
+\section{Fidelidad}
+
+Para validar la fidelidad se compararon estadísticas descriptivas y varias pruebas de similitud entre distribuciones reales y sintéticas. En concreto se midieron diferencias de media y desviación típica, el estadístico de Kolmogorov--Smirnov, la distancia de Wasserstein normalizada y la diferencia media absoluta entre matrices de correlación.
+
+\subsection*{Métricas empleadas}
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{p{9.5cm} c}
+\toprule
+\textbf{Métrica} & \textbf{Valor} \\
+\midrule
+Diferencia media de medias (en unidades z) & 0.035 \\
+Desviación media del ratio de desviaciones típicas & 0.032 \\
+KS medio & 0.055 \\
+KS máximo & 0.103 \\
+Wasserstein normalizado medio & 0.076 \\
+Brecha media de correlación & 0.107 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{Discusión de resultados}
+Los resultados indican una fidelidad global buena: las medias cambian muy poco en promedio (0.035 desviaciones típicas), el KS medio es bajo (0.055) y la distancia de Wasserstein normalizada también se mantiene contenida. La estructura de correlación no es perfecta, pero la brecha media de 0.107 sigue siendo razonable para un generador sencillo. En conjunto, el modelo reproduce bien la forma general del dataset, aunque suaviza parte de las dependencias multivariantes finas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/feature_distributions.png}
+    \caption{Distribuciones marginales de cuatro variables representativas en train real y sintético.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.88\textwidth]{figures/correlation_heatmaps.png}
+    \caption{Estructura de correlaciones en los datos reales y sintéticos.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.88\textwidth]{figures/fidelity_table.png}
+    \caption{Variables con mayor divergencia univariante según KS y Wasserstein normalizado.}
+\end{figure}
+
+\section{Utilidad}
+
+La utilidad se evaluó con el protocolo TRTR/TSTR: se entrenaron modelos con datos reales y con datos sintéticos, y en ambos casos se validó exclusivamente sobre el mismo test real. Así puede medirse hasta qué punto los datos sintéticos conservan la señal predictiva relevante para la tarea clínica.
+
+\subsection*{Métricas empleadas}
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Modelo} & \textbf{Acc. TRTR} & \textbf{Acc. TSTR} & \textbf{ROC-AUC TRTR} & \textbf{ROC-AUC TSTR} \\
+\midrule
+Logistic Regression & 98.25\% & 91.23\% & 0.995 & 0.991 \\
+Random Forest & 95.61\% & 91.23\% & 0.994 & 0.986 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{Discusión de resultados}
+La utilidad obtenida es alta. Con regresión logística, el ROC-AUC apenas cae de 0.995 a 0.991. Con \textit{random forest}, el descenso es igualmente moderado. La caída en accuracy es más visible, pero los modelos entrenados con datos sintéticos siguen superando el 91\% en test real. Además, el \textit{random forest} mantiene coincidencia total en el top-10 de variables más importantes (10/10), lo que sugiere que la señal discriminativa principal se conserva bien.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.76\textwidth]{figures/utility_roc_auc.png}
+    \caption{Rendimiento predictivo en test real usando entrenamiento real frente a sintético.}
+\end{figure}
+
+\section{Privacidad}
+
+La privacidad se analizó mediante \textit{Distance to Closest Record} (DCR), \textit{Nearest Neighbor Distance Ratio} (NNDR) y tasa de duplicados exactos. Como referencia, el DCR de las muestras sintéticas hacia el train real se comparó con el DCR de un test real independiente respecto al mismo train. Si los sintéticos fuesen copias o casi copias, sus distancias tenderían a ser claramente menores que las del test real.
+
+\subsection*{Métricas empleadas}
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{p{9.5cm} c}
+\toprule
+\textbf{Indicador} & \textbf{Valor} \\
+\midrule
+Tasa de duplicados exactos & 0.00\% \\
+DCR mediano sintético $\rightarrow$ train & 2.934 \\
+DCR mediano test real $\rightarrow$ train & 2.102 \\
+NNDR mediano sintético & 0.960 \\
+\% sintéticos por debajo del p1 de DCR del test & 0.00\% \\
+\% sintéticos por debajo del p5 de DCR del test & 0.00\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{Discusión de resultados}
+Los indicadores son tranquilizadores: no aparecen duplicados exactos y el DCR mediano de los sintéticos es incluso mayor que el del test real independiente, lo que reduce la sospecha de memorización. Además, ningún registro sintético cae por debajo del percentil 1 ni del percentil 5 del DCR del test real. El NNDR mediano cercano a 1 sugiere que, cuando existe un vecino próximo, no suele tratarse de una coincidencia aislada extrema. Dicho de otra forma, los datos sintéticos parecen plausibles sin quedar excesivamente pegados a individuos concretos del train.
+
+Es importante remarcar que esta parte no demuestra privacidad formal, sino una validación empírica orientada a detectar riesgo de copia o de memorización evidente. Para un análisis más fuerte sería conveniente añadir ataques de \textit{membership inference} o mecanismos de privacidad diferencial.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.88\textwidth]{figures/privacy_dcr_nndr.png}
+    \caption{Comparativa de DCR y distribución de NNDR en el conjunto sintético.}
+\end{figure}
+
+\section{Conclusión}
+
+La estrategia basada en \textit{Gaussian Mixture Models} ofrece un compromiso convincente entre fidelidad, utilidad y privacidad para este dataset médico tabular. No alcanza el realismo multivariante que cabría esperar de modelos más complejos, pero sí permite generar un conjunto sintético útil para experimentación y prototipado con un riesgo bajo de copiar registros reales. Como mejora futura, se podría comparar este enfoque con bibliotecas especializadas como SDV, Synthcity o BeGREAT y añadir ataques de \textit{membership inference} más agresivos.
+
+\end{document}

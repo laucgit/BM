@@ -1,0 +1,100 @@
+{
+  "dataset": {
+    "name": "Breast Cancer Wisconsin (Diagnostic)",
+    "n_rows_total": 569,
+    "n_features": 30,
+    "n_rows_train": 455,
+    "n_rows_test": 114,
+    "class_mapping": {
+      "0": "malignant",
+      "1": "benign"
+    }
+  },
+  "generator": {
+    "strategy": "Class-conditional Gaussian Mixture Models (GMM)",
+    "library": "scikit-learn",
+    "covariance_type": "diag",
+    "per_class_components": {
+      "0": 4,
+      "1": 4
+    },
+    "random_state": 42
+  },
+  "fidelity": {
+    "avg_standardized_mean_diff": 0.03492408424960007,
+    "avg_std_ratio_deviation": 0.03172489421661477,
+    "avg_ks_statistic": 0.05545787545787547,
+    "max_ks_statistic": 0.10329670329670329,
+    "avg_normalized_wasserstein": 0.07611655679217823,
+    "mean_abs_corr_gap": 0.10687674556686975
+  },
+  "utility": {
+    "metrics": [
+      {
+        "model": "Logistic Regression",
+        "setting": "TRTR",
+        "accuracy": 0.9824561403508771,
+        "f1": 0.9861111111111112,
+        "roc_auc": 0.9953703703703703
+      },
+      {
+        "model": "Logistic Regression",
+        "setting": "TSTR",
+        "accuracy": 0.9122807017543859,
+        "f1": 0.927536231884058,
+        "roc_auc": 0.9910714285714286
+      },
+      {
+        "model": "Random Forest",
+        "setting": "TRTR",
+        "accuracy": 0.956140350877193,
+        "f1": 0.9655172413793104,
+        "roc_auc": 0.9937169312169313
+      },
+      {
+        "model": "Random Forest",
+        "setting": "TSTR",
+        "accuracy": 0.9122807017543859,
+        "f1": 0.9285714285714286,
+        "roc_auc": 0.986111111111111
+      }
+    ],
+    "rf_top10_real": [
+      "worst concave points",
+      "worst perimeter",
+      "worst area",
+      "worst radius",
+      "mean concave points",
+      "mean radius",
+      "mean perimeter",
+      "mean concavity",
+      "mean area",
+      "area error"
+    ],
+    "rf_top10_synthetic": [
+      "worst perimeter",
+      "worst area",
+      "worst concave points",
+      "worst radius",
+      "mean radius",
+      "mean concave points",
+      "mean perimeter",
+      "mean area",
+      "area error",
+      "mean concavity"
+    ],
+    "rf_top10_overlap_count": 10
+  },
+  "privacy": {
+    "exact_duplicate_rate": 0.0,
+    "median_dcr_synthetic_to_train": 2.9339428388170723,
+    "median_dcr_test_to_train": 2.1017006999708725,
+    "mean_dcr_synthetic_to_train": 3.214119774314819,
+    "mean_dcr_test_to_train": 2.355639698009189,
+    "median_nndr_synthetic": 0.9602295680402528,
+    "share_synthetic_below_test_dcr_p01": 0.0,
+    "share_synthetic_below_test_dcr_p05": 0.0,
+    "test_dcr_p01": 1.1995466967191977,
+    "test_dcr_p05": 1.3489906875011783
+  }
+}
