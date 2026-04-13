@@ -1,6 +1,5 @@
 numpy
 pandas
+matplotlib
 scipy
 scikit-learn
-matplotlib
-python-docx
