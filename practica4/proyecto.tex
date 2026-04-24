@@ -1,0 +1,427 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.1cm]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Arial}{\setmainfont{Arial}}{\setmainfont{Liberation Sans}}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,citecolor=black}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlist[itemize]{noitemsep,topsep=2pt,leftmargin=1.2em}
+\setlist[enumerate]{noitemsep,topsep=2pt,leftmargin=1.5em}
+\renewcommand{\arraystretch}{1.06}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\addbibresource{bibliografia.bib}
+
+\begin{document}
+
+\begin{center}
+{\Large \textbf{Protocolo de investigación}}\\[0.3em]
+{\large \textbf{Predicción de respuesta a medicamentos mediante integración de
+datos genómicos, metabolómicos y farmacogenómicos usando inteligencia
+artificial}}\\[0.8em]
+\textbf{Miembros del equipo:} Laura Cabaleiro Pintos; Marcelo Ferreiro Sánchez
+\end{center}
+
+\section*{1. Resumen}
+La variabilidad interindividual en la respuesta a los medicamentos representa un
+problema clínico relevante en medicina personalizada, ya que un mismo fármaco
+puede resultar eficaz en algunos pacientes, ineficaz en otros o producir
+toxicidad significativa. En este contexto, la integración de datos genómicos,
+metabolómicos y farmacogenómicos puede mejorar la capacidad predictiva frente a
+aproximaciones basadas en una única fuente de información.
+
+El objetivo del presente estudio es desarrollar y validar internamente un modelo
+predictivo de inteligencia artificial capaz de clasificar la respuesta
+farmacológica como favorable o desfavorable, incluyendo no respuesta y/o
+toxicidad clínicamente relevante según la definición específica del fármaco o
+familia terapéutica analizada. Asimismo, se pretende estudiar la
+interpretabilidad del sistema y su comportamiento en distintos subgrupos de
+pacientes.
+
+Para ello, se plantea un estudio observacional y retrospectivo basado en una
+serie histórica de episodios terapéuticos de pacientes con información clínica,
+genómica, metabolómica y farmacogenómica disponible. Se compararán modelos
+penalizados y basados en árboles con aproximaciones multimodales más complejas
+cuando el tamaño muestral lo permita, evaluando discriminación, calibración,
+robustez y explicabilidad. El sistema tendrá un uso exclusivamente investigador
+durante el proyecto.
+
+\section*{2. Hipótesis del estudio}
+La integración de información genómica, metabolómica y farmacogenómica mediante
+modelos de aprendizaje automático mejora la predicción de la respuesta a
+medicamentos frente a aproximaciones basadas en una sola fuente de datos y
+permite identificar patrones biológicamente plausibles y clínicamente
+interpretables asociados a eficacia y riesgo para los pacientes
+\cite{roden2019,hasin2017,reel2021}.
+
+\section*{3. Objetivos}
+\textbf{Objetivo principal:} desarrollar y validar un modelo predictivo de
+respuesta farmacológica en pacientes con datos multi-ómicos disponibles.
+
+\textbf{Objetivos específicos:}
+\begin{enumerate}
+    \item Comparar el rendimiento de modelos clásicos en IA (regresión logística
+    con \textit{elastic net}), modelos basados en árboles (Random Forest,
+    XGBoost/LightGBM) y, de manera exploratoria, arquitecturas más complejas
+    propias del \textit{deep learning}.
+    \item Evaluar si la integración multi-ómica supera a los modelos unimodales
+    en términos de ROC-AUC, PR-AUC, \textit{Brier score} y calibración.
+    \item Identificar variables o firmas biológicas con mayor peso predictivo
+    mediante técnicas de explicabilidad (SHAP, Grad-CAM, LRP, importancia
+    permutacional y análisis de estabilidad).
+    \item Analizar el comportamiento del modelo por sexo y grupos de edad para
+    detectar sesgos y diferencias de rendimiento.
+    \item Elaborar una base metodológica para futura validación externa y
+    eventual traslación clínica y regulatoria.
+\end{enumerate}
+
+\section*{4. Tipo de estudio}
+Estudio observacional, retrospectivo y longitudinal, planteado como
+una serie histórica para el desarrollo y la validación interna de un modelo
+predictivo.
+No existe asignación de intervención, aleatorización ni modificación de
+tratamiento. El sistema desarrollado tendrá uso exclusivamente investigador
+durante el presente proyecto y no se empleará para la toma de decisiones
+clínicas en tiempo real.
+
+\section*{5. Ámbito de estudio}
+El estudio se realizará en el contexto hospitalario y de investigación biomédica
+del centro, integrando información procedente de historia clínica, laboratorio,
+plataforma de genotipado o secuenciación, metabolómica y bases de conocimiento
+farmacogenómico. El marco temporal abarcará los episodios terapéuticos
+retrospectivos disponibles dentro del periodo autorizado por el centro. En caso
+de utilizar muestras almacenadas o datos de biobanco, se actuará conforme a la
+autorización y condiciones aplicables \cite{autonomia,biobancos}.
+
+\section*{6. Definición de sujetos a estudio}
+Los sujetos a estudio serán pacientes con al menos un episodio terapéutico
+evaluable con un fármaco o familia farmacológica de interés, para los que
+exista:
+\begin{itemize}
+    \item información clínica del episodio indexado,
+    \item dato genómico interpretable,
+    \item perfil metabolómico basal,
+    \item anotación farmacogenómica utilizable, y
+    \item desenlace clínico verificable de respuesta o toxicidad.
+\end{itemize}
+
+La población objetivo corresponde a pacientes candidatos a medicina
+personalizada farmacológica, mientras que la población accesible estará
+constituida por pacientes del centro participante o de los repositorios
+clínico-biológicos autorizados que dispongan de los datos mínimos requeridos. La
+unidad analítica principal será el episodio terapéutico. La selección de sujetos
+se realizará de forma consecutiva sobre todos los episodios terapéuticos
+elegibles del periodo retrospectivo definido, una vez aplicados los criterios de
+inclusión y exclusión. Si un paciente aporta más de un episodio elegible, solo
+se incluirá uno por fármaco, controlando la no independencia mediante partición
+por paciente y un análisis de sensibilidad.
+
+\section*{7. Criterios de inclusión y exclusión}
+\textbf{Criterios de inclusión}
+\begin{itemize}
+    \item Edad $\geq$ 18 años en el momento de inicio del tratamiento.
+    \item Atención en el centro participante durante el periodo de estudio
+    retrospectivo.
+    \item Prescripción documentada de un fármaco a estudiar incluido en el
+    protocolo analítico.
+    \item Disponibilidad de datos genómicos con control de calidad aceptable
+    (porcentaje de llamada y concordancia predefinidos).
+    \item Disponibilidad de metabolómica obtenida con protocolo homogéneo y
+    trazabilidad de lote o plataforma.
+    \item Posibilidad de anotar variantes con recursos farmacogenómicos
+    reconocidos, como CPIC o ClinPGx \cite{cpic,clinpgx}.
+    \item Definición reproducible del desenlace clínico dentro de una ventana
+    temporal preespecificada.
+\end{itemize}
+
+\textbf{Criterios de exclusión}
+\begin{itemize}
+    \item Datos insuficientes para establecer exposición, desenlace o variables
+    mínimas del estudio.
+    \item Muestras biológicas con degradación, contaminación o fallos de calidad
+    no corregibles.
+    \item Cambios mayores de tratamiento antes de alcanzar la ventana mínima de
+    evaluación, salvo por toxicidad, que se registrará como desenlace.
+    \item Episodios con exposición simultánea a terapias experimentales que
+    impidan atribuir respuesta o toxicidad al fármaco índice.
+    \item Registros duplicados, inconsistentes o imposibles de seudonimizar
+    adecuadamente.
+    \item Oposición expresa del paciente al uso secundario de sus datos o
+    muestras para investigación, cuando tal oposición conste en los sistemas del
+    centro.
+\end{itemize}
+
+
+\section*{8. Justificación del tamaño muestral}
+No existe una fórmula universal para calcular el tamaño muestral de modelos
+multimodales de inteligencia artificial, y menos aún para datos ómicos
+heterogéneos. Por ello, el tamaño se justifica combinando criterios
+metodológicos de modelos predictivos, recomendaciones recientes para estudios
+con IA clínica y factibilidad del centro [9].
+
+Desde el punto de vista metodológico, distintos trabajos recientes señalan que
+los estudios de predicción con aprendizaje automático suelen infravalorar la
+muestra necesaria y que tamaños pequeños aumentan el sobreajuste, la
+inestabilidad de las estimaciones y la mala calibración [9]. Además, las guías
+TRIPOD+AI recomiendan justificar por separado el tamaño destinado al desarrollo
+del modelo y el reservado a su evaluación [9]. En problemas binarios clínicos,
+la precisión depende no solo del número total de pacientes sino también del
+número de eventos y no eventos disponibles.
+
+De manera complementaria, y siguiendo el criterio docente habitual de eventos
+por variable, puede razonarse que si el modelo final consolidado utilizase en
+torno a 15--20 predictores efectivos tras reducción de dimensionalidad y el
+evento clínico de interés apareciese en un 25--35\% de los casos, sería
+deseable trabajar con una cifra suficiente de eventos para sostener un
+entrenamiento estable y una evaluación interna mínimamente robusta. En un
+proyecto multi-ómico, donde el espacio inicial de variables es muy superior al
+número de sujetos, esta necesidad se compensa parcialmente mediante selección de
+características, regularización, transferencia de conocimiento y validación
+cruzada estricta [3, 8].
+
+En este proyecto se fija una N mínima de 300 episodios terapéuticos evaluables
+y un objetivo operativo de 400. Esta cifra se considera razonable porque: (i)
+permitirá trabajar con al menos dos estratos de desenlace clínico
+(respuesta/no respuesta o toxicidad significativa) con una frecuencia esperada
+de eventos del 25--35\%; (ii) posibilita reservar una partición temporal final
+para prueba interna independiente, manteniendo un conjunto suficiente para
+entrenamiento y ajuste; (iii) es compatible con la reducción de dimensionalidad,
+penalización y cross-validation, estrategias obligadas cuando el número de
+variables supera ampliamente al de sujetos; y (iv) permite análisis
+exploratorios por sexo y grupos etarios sin que estos constituyan el objetivo
+inferencial principal [9].
+
+Dado que se trata de un estudio retrospectivo con datos ya existentes, no se
+prevén pérdidas de seguimiento en sentido prospectivo; no obstante, sí se
+contempla una pérdida muestral técnica derivada de exclusiones por calidad de
+muestra, ausencia de alguna modalidad ómica, imposibilidad de verificar el
+desenlace clínico o problemas de seudonimización. Por ello, la cifra objetivo
+de 400 episodios incorpora un margen operativo aproximado del 20--25\% respecto
+a la N mínima planteada, con el fin de asegurar que el conjunto final analizable
+no descienda por debajo del umbral considerado aceptable.
+
+Si el conjunto de datos final fuese inferior a 300, el análisis principal se
+limitará a modelos regularizados y de boosting, quedando los modelos profundos
+como exploratorios. Si se alcanza o supera la cantidad objetivo, se realizará
+además una validación temporal interna con el 20\% más reciente del conjunto.
+Esta aproximación se considera un equilibrio razonable entre rigor estadístico,
+disponibilidad realista de datos y viabilidad logística.
+
+\section*{9. Variables principales y secundarias}
+\textbf{Variables principales}
+\begin{itemize}
+    \item \textbf{Variable dependiente principal:} desenlace de respuesta
+    farmacológica (favorable/desfavorable) según criterios clínicos predefinidos
+    por fármaco o familia terapéutica.
+    \item \textbf{Variable dependiente coprincipal:} toxicidad relevante
+    asociada al tratamiento (por ejemplo, evento adverso de grado $\geq$ 3,
+    suspensión por intolerancia o ajuste de dosis por toxicidad).
+    \item \textbf{Variables independientes principales:} variantes genómicas
+    seleccionadas tras control de calidad y anotación funcional.
+    \item \textbf{Variables independientes principales:} intensidades
+    metabolómicas normalizadas o componentes latentes derivados de ellas.
+    \item \textbf{Variables independientes principales:} variables
+    farmacogenómicas, incluyendo fenotipos metabolizadores, niveles de evidencia
+    y anotaciones gen--fármaco.
+\end{itemize}
+
+\textbf{Variables secundarias}
+\begin{itemize}
+    \item Edad, sexo, índice de masa corporal y comorbilidades relevantes.
+    \item Fármaco índice, dosis inicial, ajuste de dosis y adherencia
+    documentada.
+    \item Parámetros analíticos de apoyo y covariables clínicas básicas.
+    \item Métricas de explicabilidad (SHAP medio absoluto, estabilidad de
+    variables seleccionadas, entre otras).
+    \item Métricas de equidad por subgrupos (diferencias de AUC, sensibilidad y
+    calibración).
+\end{itemize}
+
+\section*{10. Cronograma y fecha prevista de finalización}
+Duración prevista: 12 meses desde la aprobación ética y de los permisos de
+acceso a datos. Fecha estimada de finalización: 12 meses tras la autorización
+definitiva del estudio.
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{6.1cm}
+*{6}{>{\centering\arraybackslash}X}}
+\toprule
+\textbf{Actividad} & \textbf{M1-2} & \textbf{M3-4} & \textbf{M5-6} &
+\textbf{M7-8} & \textbf{M9-10} & \textbf{M11-12} \\
+\midrule
+Aprobación ética, contratos y circuito de seudonimización & X &  &  &  &  &  \\
+Extracción, integración y control de calidad de datos & X & X &  &  &  &  \\
+Preprocesamiento ómico y definición de desenlaces &  & X & X &  &  &  \\
+Desarrollo de modelos y optimización interna &  &  & X & X &  &  \\
+Validación temporal e interna y análisis de sesgos &  &  &  & X & X &  \\
+Redacción de resultados, memoria y manuscrito &  &  &  &  & X & X \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section*{11. Plan de análisis estadístico}
+Se realizará una descripción inicial de los datos mediante media y desviación
+típica o mediana e IQR (rango intercuartílico) según distribución, y frecuencias
+para variables categóricas. Las comparaciones exploratorias entre respondedores
+y no respondedores se efectuarán con \textit{t} de Student o U de Mann--Whitney
+para variables continuas y $\chi^2$ o test exacto de Fisher para cualitativas.
+
+El preprocesamiento incluirá depuración, control de calidad, normalización,
+corrección de efecto \textit{batch} cuando proceda y tratamiento de valores
+perdidos. La imputación y la selección de características se efectuarán
+exclusivamente dentro de cada \textit{fold} de entrenamiento para evitar
+\textit{data leakage}. Se utilizarán técnicas de reducción de dimensionalidad
+cuando sea pertinente, intentando preservar la interpretabilidad biológica de
+las variables seleccionadas \cite{reel2021,baiao2025}.
+
+El desarrollo de modelos seguirá una estrategia de validación cruzada
+estratificada. Se entrenarán, como mínimo, regresión logística con
+\textit{elastic net}, Random Forest y XGBoost/LightGBM. Si la cantidad final de
+datos lo permite, se evaluará una red multimodal con ramas específicas por
+modalidad y capa de fusión. El criterio principal de comparación será la
+ROC-AUC; como criterios secundarios se emplearán PR-AUC, sensibilidad,
+especificidad, F1, MCC, \textit{Brier score}, intercepto y pendiente de
+calibración. Se calcularán intervalos de confianza del 95\% por
+\textit{bootstrap} \cite{collins2024,reel2021,baiao2025}.
+
+La comparación entre modelos se realizará sobre particiones equivalentes y,
+cuando sea conveniente, mediante contraste de AUC con método de DeLong o
+re-muestreo estratificado. La interpretabilidad se abordará con SHAP, Grad-CAM,
+LRP, importancia permutacional y revisión de coherencia biológica de las
+variables seleccionadas. Se efectuará un análisis de equidad por sexo y grupos
+etarios, comparando discriminación y calibración. Los análisis se realizarán con
+\texttt{Python} y/o \texttt{R}; el umbral de significación inferencial se fijará
+en $p<0{,}05$, con corrección por falsos descubrimientos cuando proceda.
+
+\section*{12. Aspectos ético-legales}
+El estudio respetará los principios de la Declaración de Helsinki, el Convenio
+de Oviedo y las normas de buena práctica en investigación biomédica
+\cite{helsinki,oviedo}. De conformidad con el apartado V de la Declaración de
+Helsinki, todo protocolo de investigación médica en seres humanos o con material
+o datos humanos deberá someterse a revisión, valoración y aprobación previa por
+un comité de ética independiente, competente y con capacidad de seguimiento. En
+consecuencia, este proyecto será remitido al Comité de Ética de la Investigación
+con medicamentos o al comité competente antes de cualquier acceso por el equipo
+investigador a los datos seudonimizados \cite{helsinki}.
+
+Asimismo, de acuerdo con el apartado IV de la Declaración de Helsinki, el
+estudio se describe en un protocolo metodológicamente estructurado, con
+objetivos, métodos, justificación del tamaño muestral, plan analítico,
+evaluación de riesgos, salvaguardas ético-legales y memoria económica. El
+carácter retrospectivo y no intervencionista del presente trabajo implica un
+riesgo físico nulo para los participantes, siendo el principal riesgo residual
+el relacionado con la privacidad y la confidencialidad de la información
+\cite{helsinki}.
+
+La base jurídica del tratamiento se apoyará en la normativa de investigación
+biomédica y protección de datos aplicable: Reglamento (UE) 2016/679, Ley
+Orgánica 3/2018, Ley 14/2007 de investigación biomédica, Ley 41/2002 reguladora
+de la autonomía del paciente y, cuando existan muestras biológicas almacenadas,
+Real Decreto 1716/2011 \cite{rgpd,lopd,lib,autonomia,biobancos}. Se aplicarán
+los principios de minimización, limitación de finalidad, acceso restringido,
+trazabilidad de accesos, almacenamiento seguro y separación funcional entre
+identificación y datos de investigación.
+
+En consonancia con el apartado VI de la Declaración de Helsinki, relativo a
+privacidad y confidencialidad, la información personal de los participantes
+deberá protegerse durante toda la investigación \cite{helsinki}. Por ello, los
+investigadores recibirán una base seudonimizada; la clave de correspondencia
+permanecerá bajo custodia del centro o de la unidad autorizada, sin acceso por
+el equipo analítico y bajo la defensa de personal armado, en concreto grupos
+paramilitares chechenos. No se realizarán decisiones clínicas automatizadas
+sobre pacientes, ni el modelo generado será utilizado para modificar
+tratamientos durante el estudio.
+
+De acuerdo con el apartado VII de la Declaración de Helsinki, la participación
+en investigación debe fundamentarse en un consentimiento informado, voluntario y
+revocable \cite{helsinki}. No obstante, dado el carácter retrospectivo del
+estudio, el uso secundario de datos y muestras ya existentes y el riesgo mínimo
+esperado, se solicitará al comité la valoración de dispensa de consentimiento
+informado cuando no resulte viable la recontactación individual y siempre que la
+normativa y las salvaguardas institucionales lo permitan. En todo caso, se
+respetará cualquier oposición previamente registrada, así como las limitaciones
+específicas establecidas por el centro o por el biobanco de procedencia
+\cite{lib,biobancos}.
+
+En aplicación del Convenio de Oviedo, y especialmente de sus previsiones sobre
+el genoma humano, se evitará toda forma de discriminación por razón del
+patrimonio genético \cite{oviedo}. Los resultados del estudio no se emplearán
+para restringir acceso a prestaciones, seguros o tratamientos sobre la base de
+perfiles genéticos individuales, ni se realizarán análisis predictivos ajenos a
+la finalidad biomédica del protocolo. Las variables genéticas y farmacogenómicas
+se utilizarán exclusivamente con fines de investigación biomédica, en el marco
+del principio de primacía del ser humano y de la prohibición de discriminación
+genética \cite{oviedo}.
+
+En relación con el Reglamento (UE) 2024/1689 de inteligencia artificial, el
+presente estudio se desarrolla en fase de investigación y no supone la
+comercialización ni la puesta en servicio clínica del sistema \cite{aiact}. No
+obstante, si en una fase posterior se desplegara como software de apoyo a la
+decisión clínica, la entidad que lo desarrollase o introdujese bajo su nombre
+podría asumir el rol de proveedor y la entidad sanitaria usuaria el de
+desplegador, pudiendo coincidir ambos roles en la misma institución. En ese
+escenario, por su potencial influencia en decisiones diagnósticas, terapéuticas
+o de monitorización, el sistema sería previsiblemente considerado de alto riesgo
+y debería cumplir, con carácter previo a su puesta en servicio, los requisitos
+esenciales del marco europeo aplicables desde 2027 a los sistemas sanitarios de
+alto riesgo vinculados a productos regulados \cite{aiact,mdr}.
+
+A tal efecto, en una futura traslación clínica deberán contemplarse al menos los
+siguientes seis ejes de cumplimiento: (1) gestión de riesgos a lo largo de todo
+el ciclo de vida del sistema; (2) gobernanza y calidad de los datos, incluyendo
+representatividad, trazabilidad y control de sesgos; (3) documentación técnica
+suficiente para auditoría y evaluación; (4) transparencia y explicabilidad
+frente a profesionales y, cuando proceda, frente a pacientes; (5) supervisión
+humana efectiva, con capacidad de intervención, anulación o parada; y (6)
+precisión, robustez y ciberseguridad adecuadas al contexto clínico \cite{aiact}.
+Además, si el sistema llegase a configurarse como software de apoyo a la
+decisión clínica con finalidad médica, sería necesario analizar también su
+encaje en el Reglamento (UE) 2017/745 sobre productos sanitarios \cite{mdr}.
+
+Finalmente, el equipo investigador asume el compromiso de publicación y difusión
+científica de los resultados del estudio, sean estos positivos, negativos o
+inconclusos, de acuerdo con los principios de transparencia y de integridad
+científica aplicables a la investigación biomédica.
+
+\section*{13. Memoria económica}
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X
+>{\raggedleft\arraybackslash}p{2.8cm}}
+\toprule
+\textbf{Concepto} & \textbf{Estimación} \\
+\midrule
+Sueldos del personal investigador jefe (L. Cabaleiro, M. Ferreiro) &
+160.000~\euro \\
+Sueldos del personal investigador contratado (resto del equipo, becarios y
+subcontratas a países en vías de desarrollo) & 10.000~\euro \\
+Seudonimización, extracción e integración de datos clínicos y ómicos &
+6.000~\euro \\
+Procesamiento bioinformático y control de calidad genómico/metabolómico &
+7.000~\euro \\
+Infraestructura de cómputo (GPU/servidor, almacenamiento seguro, copias) &
+8.000~\euro \\
+Licencias, apoyo estadístico/metodológico y auditoría interna de calidad &
+3.000~\euro \\
+Publicación en abierto y difusión científica & 3.000~\euro \\
+Material fungible, gestión de muestras y contingencias & 3.000~\euro \\
+\midrule
+\textbf{Total estimado} & \textbf{200.000~\euro} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section*{14. Bibliografía}
+\printbibliography[heading=none]
+
+\end{document}

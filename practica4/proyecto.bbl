@@ -1,0 +1,574 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{roden2019}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=3af5e5fb0cbdfc7441a8ebc16c9ebc1d}{%
+           family={Roden},
+           familyi={R\bibinitperiod},
+           given={Dan\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b42c44d8eb43d053d2c13231a5960e07}{%
+           family={McLeod},
+           familyi={M\bibinitperiod},
+           given={Howard\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=16bcd2e4dc34e7e6116b606134e6330f}{%
+           family={Relling},
+           familyi={R\bibinitperiod},
+           given={Mary\bibnamedelima V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=be53a31ffc7bcf76eb61bf624cb8c4ca}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Marc\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a2dc15c11f7923856c7d717cab1bab1d}{%
+           family={Mensah},
+           familyi={M\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=277fa80a6bf1336dd2d57ceb61218b73}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Josh\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=b0d6ce1b20b40fb917fc402b86ec5896}{%
+           family={Van\bibnamedelima Driest},
+           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Sara\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{fadb3de7cdfe534ff6212b9836d4ff12}
+      \strng{fullhash}{15edd2b9a34745a9e911c9215c6aac8a}
+      \strng{fullhashraw}{15edd2b9a34745a9e911c9215c6aac8a}
+      \strng{bibnamehash}{fadb3de7cdfe534ff6212b9836d4ff12}
+      \strng{authorbibnamehash}{fadb3de7cdfe534ff6212b9836d4ff12}
+      \strng{authornamehash}{fadb3de7cdfe534ff6212b9836d4ff12}
+      \strng{authorfullhash}{15edd2b9a34745a9e911c9215c6aac8a}
+      \strng{authorfullhashraw}{15edd2b9a34745a9e911c9215c6aac8a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet}
+      \field{number}{10197}
+      \field{title}{Pharmacogenomics}
+      \field{volume}{394}
+      \field{year}{2019}
+      \field{pages}{521\bibrangedash 532}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/S0140-6736(19)31276-0
+      \endverb
+    \endentry
+    \entry{hasin2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f686602d7dfd6a7f7e3b699722883219}{%
+           family={Hasin},
+           familyi={H\bibinitperiod},
+           given={Yehudit},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=36df7c5a7a1215939cfb32d7bf56845c}{%
+           family={Seldin},
+           familyi={S\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1bb901dec57c88389105d8deb4ea5823}{%
+           family={Lusis},
+           familyi={L\bibinitperiod},
+           given={Aldons},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{335e04a802a4531a83899e36970fd79d}
+      \strng{fullhash}{335e04a802a4531a83899e36970fd79d}
+      \strng{fullhashraw}{335e04a802a4531a83899e36970fd79d}
+      \strng{bibnamehash}{335e04a802a4531a83899e36970fd79d}
+      \strng{authorbibnamehash}{335e04a802a4531a83899e36970fd79d}
+      \strng{authornamehash}{335e04a802a4531a83899e36970fd79d}
+      \strng{authorfullhash}{335e04a802a4531a83899e36970fd79d}
+      \strng{authorfullhashraw}{335e04a802a4531a83899e36970fd79d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genome Biology}
+      \field{title}{Multi-omics approaches to disease}
+      \field{volume}{18}
+      \field{year}{2017}
+      \field{pages}{83}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s13059-017-1215-1
+      \endverb
+    \endentry
+    \entry{reel2021}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=d69fbda1c2e2090e928aba125198fe3e}{%
+           family={Reel},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=baafbe1a62ddb9a91830dbb42a7bd3ed}{%
+           family={Reel},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cec06de2f16f234e549a181ce3250b39}{%
+           family={Pearson},
+           familyi={P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=185775512da97c12aa0beb86ae859f08}{%
+           family={Trucco},
+           familyi={T\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=dec1e619e85608adda643bfb18acac9f}{%
+           family={Jefferson},
+           familyi={J\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{dcb81bbf3f79a053686be1319ad007b3}
+      \strng{fullhash}{1c5574f69994316fc5b745da11d72c1e}
+      \strng{fullhashraw}{1c5574f69994316fc5b745da11d72c1e}
+      \strng{bibnamehash}{dcb81bbf3f79a053686be1319ad007b3}
+      \strng{authorbibnamehash}{dcb81bbf3f79a053686be1319ad007b3}
+      \strng{authornamehash}{dcb81bbf3f79a053686be1319ad007b3}
+      \strng{authorfullhash}{1c5574f69994316fc5b745da11d72c1e}
+      \strng{authorfullhashraw}{1c5574f69994316fc5b745da11d72c1e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biotechnology Advances}
+      \field{title}{Using machine learning approaches for multi-omics data analysis: A review}
+      \field{volume}{49}
+      \field{year}{2021}
+      \field{pages}{107739}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.biotechadv.2021.107739
+      \endverb
+    \endentry
+    \entry{autonomia}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f13d2458f0fdc34fa96621ea44c46663}{%
+           family={{España}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{fullhash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{fullhashraw}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{bibnamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorbibnamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authornamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorfullhash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorfullhashraw}{f13d2458f0fdc34fa96621ea44c46663}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente}
+      \field{year}{2002}
+    \endentry
+    \entry{biobancos}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f13d2458f0fdc34fa96621ea44c46663}{%
+           family={{España}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{fullhash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{fullhashraw}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{bibnamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorbibnamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authornamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorfullhash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorfullhashraw}{f13d2458f0fdc34fa96621ea44c46663}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Real Decreto 1716/2011, de 18 de noviembre, por el que se establecen los requisitos básicos de autorización y funcionamiento de los biobancos con fines de investigación biomédica}
+      \field{year}{2011}
+    \endentry
+    \entry{cpic}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=92cd8627f56b85772199d278ba49f6ea}{%
+           family={{Clinical Pharmacogenetics Implementation Consortium}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{92cd8627f56b85772199d278ba49f6ea}
+      \strng{fullhash}{92cd8627f56b85772199d278ba49f6ea}
+      \strng{fullhashraw}{92cd8627f56b85772199d278ba49f6ea}
+      \strng{bibnamehash}{92cd8627f56b85772199d278ba49f6ea}
+      \strng{authorbibnamehash}{92cd8627f56b85772199d278ba49f6ea}
+      \strng{authornamehash}{92cd8627f56b85772199d278ba49f6ea}
+      \strng{authorfullhash}{92cd8627f56b85772199d278ba49f6ea}
+      \strng{authorfullhashraw}{92cd8627f56b85772199d278ba49f6ea}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CPIC guidelines and curated gene-drug pairs}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cpicpgx.org/
+      \endverb
+      \verb{url}
+      \verb https://cpicpgx.org/
+      \endverb
+    \endentry
+    \entry{clinpgx}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=d3b5137eac39c69f19620e37b80074ff}{%
+           family={{ClinPGx}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3b5137eac39c69f19620e37b80074ff}
+      \strng{fullhash}{d3b5137eac39c69f19620e37b80074ff}
+      \strng{fullhashraw}{d3b5137eac39c69f19620e37b80074ff}
+      \strng{bibnamehash}{d3b5137eac39c69f19620e37b80074ff}
+      \strng{authorbibnamehash}{d3b5137eac39c69f19620e37b80074ff}
+      \strng{authornamehash}{d3b5137eac39c69f19620e37b80074ff}
+      \strng{authorfullhash}{d3b5137eac39c69f19620e37b80074ff}
+      \strng{authorfullhashraw}{d3b5137eac39c69f19620e37b80074ff}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Overview of the PharmGKB/ClinPGx pharmacogenomics resource}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.clinpgx.org/
+      \endverb
+      \verb{url}
+      \verb https://www.clinpgx.org/
+      \endverb
+    \endentry
+    \entry{baiao2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=2d5707e874d392a6494a3717c09d0d1b}{%
+           family={Baião},
+           familyi={B\bibinitperiod},
+           given={Ana\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e320a5beeb68bcce310adbee0c45b503}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Zhaoxiang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8f6bfec6440891752ab8b855ac1955bd}{%
+           family={Poulos},
+           familyi={P\bibinitperiod},
+           given={Rebecca\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e3bf5f8ac1e6215999cf0b360ec84c46}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8c614566a5a1fecf1b7487722f2be4cd}{%
+           family={Reddel},
+           familyi={R\bibinitperiod},
+           given={Roger\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=93a02759d3c234ca0d28d7108314963e}{%
+           family={Vinga},
+           familyi={V\bibinitperiod},
+           given={Susana},
+           giveni={S\bibinitperiod}}}%
+        {{hash=50c24e5ff7ecec0b94205181b48c80a3}{%
+           family={Gonçalves},
+           familyi={G\bibinitperiod},
+           given={Emanuel},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1fef70d9cb768029b3cf515d95afb97}
+      \strng{fullhash}{e1ce3438f94327a3dbe30ebd839984c4}
+      \strng{fullhashraw}{e1ce3438f94327a3dbe30ebd839984c4}
+      \strng{bibnamehash}{a1fef70d9cb768029b3cf515d95afb97}
+      \strng{authorbibnamehash}{a1fef70d9cb768029b3cf515d95afb97}
+      \strng{authornamehash}{a1fef70d9cb768029b3cf515d95afb97}
+      \strng{authorfullhash}{e1ce3438f94327a3dbe30ebd839984c4}
+      \strng{authorfullhashraw}{e1ce3438f94327a3dbe30ebd839984c4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Briefings in Bioinformatics}
+      \field{number}{4}
+      \field{title}{A technical review of multi-omics data integration methods: from classical statistical to deep generative approaches}
+      \field{volume}{26}
+      \field{year}{2025}
+      \field{pages}{bbaf355}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/bib/bbaf355
+      \endverb
+    \endentry
+    \entry{collins2024}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{7}{}{%
+        {{hash=9def305c11110011d8cc0d756fbeb2b5}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Gary\bibnamedelima S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f5f6785ed8b1860e2369a064308079b1}{%
+           family={Moons},
+           familyi={M\bibinitperiod},
+           given={Karel\bibnamedelimb G.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=467a57675d58716cf9324ea1db87e359}{%
+           family={Dhiman},
+           familyi={D\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8801711b3aa0c20fe12aa95da59f7a7e}{%
+           family={Logullo},
+           familyi={L\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod}}}%
+        {{hash=346e99b2c582cf15d36f442325188a4b}{%
+           family={Riley},
+           familyi={R\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=3333cfe95922b8f5d8bac7127e304455}{%
+           family={Beam},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=7620b0464c9501cf9c366d0714d72d3a}{%
+           family={Van\bibnamedelima Calster},
+           familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3e1281f327874be9ec40f59a497d3f7}
+      \strng{fullhash}{2ceb8385679116823f50bac076da4003}
+      \strng{fullhashraw}{2ceb8385679116823f50bac076da4003}
+      \strng{bibnamehash}{b3e1281f327874be9ec40f59a497d3f7}
+      \strng{authorbibnamehash}{b3e1281f327874be9ec40f59a497d3f7}
+      \strng{authornamehash}{b3e1281f327874be9ec40f59a497d3f7}
+      \strng{authorfullhash}{2ceb8385679116823f50bac076da4003}
+      \strng{authorfullhashraw}{2ceb8385679116823f50bac076da4003}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMJ}
+      \field{title}{TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods}
+      \field{volume}{385}
+      \field{year}{2024}
+      \field{pages}{e078378}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1136/bmj-2023-078378
+      \endverb
+    \endentry
+    \entry{helsinki}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=1e5c9351efef8043311f099eecc0bba1}{%
+           family={{Asociación Médica Mundial}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e5c9351efef8043311f099eecc0bba1}
+      \strng{fullhash}{1e5c9351efef8043311f099eecc0bba1}
+      \strng{fullhashraw}{1e5c9351efef8043311f099eecc0bba1}
+      \strng{bibnamehash}{1e5c9351efef8043311f099eecc0bba1}
+      \strng{authorbibnamehash}{1e5c9351efef8043311f099eecc0bba1}
+      \strng{authornamehash}{1e5c9351efef8043311f099eecc0bba1}
+      \strng{authorfullhash}{1e5c9351efef8043311f099eecc0bba1}
+      \strng{authorfullhashraw}{1e5c9351efef8043311f099eecc0bba1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Declaración de Helsinki de la AMM: principios éticos para las investigaciones médicas en seres humanos}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wma.net/es/policies-post/declaracion-de-helsinki-de-la-amm-principios-eticos-para-las-investigaciones-medicas-en-seres-humanos/
+      \endverb
+      \verb{url}
+      \verb https://www.wma.net/es/policies-post/declaracion-de-helsinki-de-la-amm-principios-eticos-para-las-investigaciones-medicas-en-seres-humanos/
+      \endverb
+    \endentry
+    \entry{oviedo}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=65071c37a888c7d12ded8c516e5e4a79}{%
+           family={{Boletín Oficial del Estado}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{65071c37a888c7d12ded8c516e5e4a79}
+      \strng{fullhash}{65071c37a888c7d12ded8c516e5e4a79}
+      \strng{fullhashraw}{65071c37a888c7d12ded8c516e5e4a79}
+      \strng{bibnamehash}{65071c37a888c7d12ded8c516e5e4a79}
+      \strng{authorbibnamehash}{65071c37a888c7d12ded8c516e5e4a79}
+      \strng{authornamehash}{65071c37a888c7d12ded8c516e5e4a79}
+      \strng{authorfullhash}{65071c37a888c7d12ded8c516e5e4a79}
+      \strng{authorfullhashraw}{65071c37a888c7d12ded8c516e5e4a79}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Instrumento de Ratificación del Convenio para la protección de los derechos humanos y la dignidad del ser humano con respecto a las aplicaciones de la biología y la medicina (Convenio de Oviedo)}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.boe.es/buscar/doc.php?id=BOE-A-1999-20638
+      \endverb
+      \verb{url}
+      \verb https://www.boe.es/buscar/doc.php?id=BOE-A-1999-20638
+      \endverb
+    \endentry
+    \entry{rgpd}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6df64dab21ea48c1eb2bfb0352897155}{%
+           family={{Unión Europea}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{fullhash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{fullhashraw}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{bibnamehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authorbibnamehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authornamehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authorfullhash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authorfullhashraw}{6df64dab21ea48c1eb2bfb0352897155}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Reglamento General de Protección de Datos}
+      \field{title}{Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016}
+      \field{year}{2016}
+    \endentry
+    \entry{lopd}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f13d2458f0fdc34fa96621ea44c46663}{%
+           family={{España}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{fullhash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{fullhashraw}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{bibnamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorbibnamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authornamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorfullhash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorfullhashraw}{f13d2458f0fdc34fa96621ea44c46663}
+      \field{extraname}{3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales}
+      \field{year}{2018}
+    \endentry
+    \entry{lib}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f13d2458f0fdc34fa96621ea44c46663}{%
+           family={{España}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{fullhash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{fullhashraw}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{bibnamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorbibnamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authornamehash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorfullhash}{f13d2458f0fdc34fa96621ea44c46663}
+      \strng{authorfullhashraw}{f13d2458f0fdc34fa96621ea44c46663}
+      \field{extraname}{4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ley 14/2007, de 3 de julio, de Investigación biomédica}
+      \field{year}{2007}
+    \endentry
+    \entry{aiact}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6df64dab21ea48c1eb2bfb0352897155}{%
+           family={{Unión Europea}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{fullhash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{fullhashraw}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{bibnamehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authorbibnamehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authornamehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authorfullhash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authorfullhashraw}{6df64dab21ea48c1eb2bfb0352897155}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo, de 13 de junio de 2024, por el que se establecen normas armonizadas en materia de inteligencia artificial}
+      \field{year}{2024}
+    \endentry
+    \entry{mdr}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6df64dab21ea48c1eb2bfb0352897155}{%
+           family={{Unión Europea}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{fullhash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{fullhashraw}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{bibnamehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authorbibnamehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authornamehash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authorfullhash}{6df64dab21ea48c1eb2bfb0352897155}
+      \strng{authorfullhashraw}{6df64dab21ea48c1eb2bfb0352897155}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reglamento (UE) 2017/745 del Parlamento Europeo y del Consejo, de 5 de abril de 2017, sobre los productos sanitarios}
+      \field{year}{2017}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
